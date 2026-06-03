@@ -3,72 +3,47 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Eventi in spiaggia · Punta Marina & Marina di Ravenna</title>
-<meta name="description" content="Calendario degli eventi serali degli stabilimenti balneari di Punta Marina e Marina di Ravenna." />
+<title>Eventi · spiagge e cultura in Romagna</title>
+<meta name="description" content="Calendario eventi: concerti e serate sulle spiagge dei lidi ravennati, Cervia, Cesenatico + eventi culturali nelle citta della Romagna." />
 <style>
   :root {
-    --sea: #0e7c86;
-    --sea-dark: #0a5b63;
-    --sand: #fbf6ec;
-    --ink: #1c2b2d;
-    --muted: #5d6f71;
-    --card: #ffffff;
-    --line: #e7ddca;
-    --star: #e8a317;
-    --shadow: 0 1px 3px rgba(14,60,64,.08), 0 6px 18px rgba(14,60,64,.06);
+    --sea: #0e7c86; --sea-dark: #0a5b63; --sand: #fbf6ec; --ink: #1c2b2d; --muted: #5d6f71;
+    --card: #fff; --line: #e7ddca; --star: #e8a317; --shadow: 0 1px 3px rgba(14,60,64,.08), 0 6px 18px rgba(14,60,64,.06);
+    --cult: #7a4ea3; --music: #1f7a8c; --food: #b5651d;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: var(--ink);
-    background: var(--sand);
-    line-height: 1.5;
-    -webkit-text-size-adjust: 100%;
-  }
-  header {
-    background: linear-gradient(135deg, var(--sea), var(--sea-dark));
-    color: #fff;
-    padding: 22px 18px calc(22px + env(safe-area-inset-bottom, 0));
-    padding-top: calc(22px + env(safe-area-inset-top, 0));
-  }
-  .wrap { max-width: 820px; margin: 0 auto; padding: 0 16px; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink); background: var(--sand); line-height: 1.5; -webkit-text-size-adjust: 100%; }
+  header { background: linear-gradient(135deg, var(--sea), var(--sea-dark)); color: #fff; padding: 22px 18px; padding-top: calc(22px + env(safe-area-inset-top, 0)); }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
   header .wrap { padding: 0 2px; }
   h1 { font-size: 1.35rem; margin: 0 0 4px; letter-spacing: -.01em; }
   header p { margin: 0; opacity: .92; font-size: .9rem; }
   .legend { margin-top: 12px; font-size: .82rem; opacity: .95; }
-  .legend b { font-weight: 600; }
 
-  .controls {
-    position: sticky; top: 0; z-index: 5;
-    background: var(--sand);
-    border-bottom: 1px solid var(--line);
-    padding: 10px 0;
-  }
-  .controls .wrap { display: flex; flex-wrap: wrap; gap: 8px; }
+  .controls { position: sticky; top: 0; z-index: 5; background: var(--sand); border-bottom: 1px solid var(--line); padding: 10px 0; }
+  .controls .wrap { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
   .seg { display: inline-flex; background: #fff; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
   .seg button { border: 0; background: transparent; padding: 8px 14px; font-size: .86rem; color: var(--muted); cursor: pointer; }
   .seg button.on { background: var(--sea); color: #fff; }
+  select { appearance: none; -webkit-appearance: none; background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 8px 30px 8px 14px; font-size: .86rem; color: var(--ink); cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%235d6f71'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 12px center; }
   .chip { border: 1px solid var(--line); background: #fff; border-radius: 999px; padding: 8px 12px; font-size: .82rem; color: var(--ink); cursor: pointer; }
   .chip.on { background: var(--ink); color: #fff; border-color: var(--ink); }
 
   main { padding: 14px 0 60px; }
-  .day { margin: 22px 0 8px; }
-  .day h2 { font-size: .82rem; text-transform: uppercase; letter-spacing: .06em; color: var(--sea-dark); margin: 0; border-bottom: 2px solid var(--line); padding-bottom: 6px; }
-  .card {
-    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
-    padding: 13px 15px; margin: 10px 0; box-shadow: var(--shadow);
-  }
+  .day h2 { font-size: .82rem; text-transform: uppercase; letter-spacing: .06em; color: var(--sea-dark); margin: 22px 0 0; border-bottom: 2px solid var(--line); padding-bottom: 6px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 13px 15px; margin: 10px 0; box-shadow: var(--shadow); }
   .card .top { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
   .stars { color: var(--star); letter-spacing: 1px; font-size: .95rem; }
   .title { font-weight: 650; font-size: 1.04rem; }
   .time { color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
-  .venue { margin: 3px 0 0; font-size: .9rem; color: var(--sea-dark); font-weight: 600; }
+  .badge { font-size: .68rem; text-transform: uppercase; letter-spacing: .04em; padding: 2px 7px; border-radius: 6px; color: #fff; }
+  .b-culturale { background: var(--cult); } .b-concerto_musica { background: var(--music); } .b-culinario { background: var(--food); } .b-altro { background: #6b7a7c; }
+  .venue { margin: 4px 0 0; font-size: .9rem; color: var(--sea-dark); font-weight: 600; }
   .venue .loc { color: var(--muted); font-weight: 400; }
   .desc { margin: 7px 0 0; font-size: .92rem; color: #34474a; }
-  .src { margin-top: 8px; font-size: .8rem; }
-  .src a { color: var(--sea); text-decoration: none; }
-  .src a:hover { text-decoration: underline; }
+  .src { margin-top: 8px; font-size: .8rem; } .src a { color: var(--sea); text-decoration: none; } .src a:hover { text-decoration: underline; }
   .empty { background: #fff; border: 1px dashed var(--line); border-radius: 14px; padding: 22px; text-align: center; color: var(--muted); }
   .note { margin-top: 26px; padding: 14px 16px; background: #fff; border: 1px solid var(--line); border-radius: 12px; font-size: .83rem; color: var(--muted); }
   .note b { color: var(--ink); }
@@ -79,9 +54,9 @@
 <body>
 <header>
   <div class="wrap">
-    <h1>Eventi in spiaggia</h1>
-    <p id="sub">Punta Marina &amp; Marina di Ravenna</p>
-    <div class="legend">Legenda: <b>★★★</b> culturale · <b>★★</b> concerti/musica · <b>★</b> culinario</div>
+    <h1>Eventi · spiagge e cultura</h1>
+    <p id="sub">Lidi ravennati, Cervia, Cesenatico + cultura nelle citta della Romagna</p>
+    <div class="legend">★★★ culturale · ★★ concerti/musica · ★ culinario</div>
   </div>
 </header>
 
@@ -91,9 +66,11 @@
       <button data-view="7" class="on">Prossimi 7 giorni</button>
       <button data-view="all">Tutti i futuri</button>
     </div>
-    <button class="chip on" data-loc="">Tutte le zone</button>
-    <button class="chip" data-loc="Punta Marina">Punta Marina</button>
-    <button class="chip" data-loc="Marina di Ravenna">Marina di Ravenna</button>
+    <select id="zona"><option value="">Tutte le zone</option></select>
+    <button class="chip on" data-tipo="">Tutto</button>
+    <button class="chip" data-tipo="culturale">★★★ Cultura</button>
+    <button class="chip" data-tipo="concerto_musica">★★ Musica</button>
+    <button class="chip" data-tipo="culinario">★ Cibo</button>
   </div>
 </div>
 
@@ -102,77 +79,84 @@
   <div class="wrap"><div class="note" id="note"></div></div>
 </main>
 
-<footer>Utility privata · dati raccolti da fonti pubbliche, da verificare sempre sulla pagina del locale.</footer>
+<footer>Utility privata · dati da fonti pubbliche, verifica sempre data e orario sulla pagina del locale/ente.</footer>
 
 <script>
 const MESI = ["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
 const GIORNI = ["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
-let DATA = null;
-let view = "7";
-let loc = "";
+const TIPO_LABEL = { culturale:"Cultura", concerto_musica:"Musica", culinario:"Cibo", altro:"Altro" };
+let DATA = null, view = "7", zona = "", tipo = "";
 
-function fmtData(iso){
-  const [y,m,d] = iso.split("-").map(Number);
-  const dt = new Date(y, m-1, d);
-  return GIORNI[dt.getDay()] + " " + d + " " + MESI[m-1] + " " + y;
+function norm(e){
+  return {
+    titolo: e.titolo||"", data: e.data||"", ora: e.ora||"", tipo: e.tipo||"altro", stelle: e.stelle||0,
+    descrizione: e.descrizione||"", fonte: e.fonte||"",
+    luogo: e.luogo || e.stabilimento || "",
+    zona: e.zona || e.localita || "",
+    comune: e.comune || e.localita || "",
+  };
 }
+function fmtData(iso){ const [y,m,d]=iso.split("-").map(Number); return GIORNI[new Date(y,m-1,d).getDay()]+" "+d+" "+MESI[m-1]+" "+y; }
 function stars(n){ return "★".repeat(n); }
-function esc(s){ return (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c])); }
+function esc(s){ return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c])); }
 
 function card(e){
   const t = e.ora ? `<span class="time">${esc(e.ora)}</span>` : "";
+  const badge = `<span class="badge b-${e.tipo}">${TIPO_LABEL[e.tipo]||"Evento"}</span>`;
+  const loc = e.comune && e.comune!==e.luogo ? ` <span class="loc">· ${esc(e.comune)}</span>` : (e.zona?` <span class="loc">· ${esc(e.zona)}</span>`:"");
   const src = e.fonte ? `<div class="src">↗ <a href="${esc(e.fonte)}" target="_blank" rel="noopener">fonte</a></div>` : "";
-  return `<div class="card">
-    <div class="top"><span class="stars" title="${e.stelle} stelle">${stars(e.stelle)}</span>
-      <span class="title">${esc(e.titolo)}</span> ${t}</div>
-    <div class="venue">${esc(e.stabilimento)} <span class="loc">· ${esc(e.localita)}</span></div>
-    <div class="desc">${esc(e.descrizione)}</div>
-    ${src}
-  </div>`;
+  return `<div class="card"><div class="top"><span class="stars">${stars(e.stelle)}</span>
+    <span class="title">${esc(e.titolo)}</span> ${t} ${badge}</div>
+    <div class="venue">${esc(e.luogo)||"&nbsp;"}${loc}</div>
+    <div class="desc">${esc(e.descrizione)}</div>${src}</div>`;
 }
 
+function source(){ return (view==="7" ? (DATA.eventiProssimi7gg||[]) : (DATA.eventiFuturi||[])).map(norm); }
+
 function render(){
-  const src = view === "7" ? (DATA.eventiProssimi7gg||[]) : (DATA.eventiFuturi||[]);
-  const evs = src.filter(e => !loc || e.localita === loc);
+  let evs = source();
+  if (zona) evs = evs.filter(e => e.zona === zona);
+  if (tipo) evs = evs.filter(e => e.tipo === tipo);
   const box = document.getElementById("list");
-  if(!evs.length){
-    box.innerHTML = `<div class="empty">Nessun evento ${view==="7"?"nei prossimi 7 giorni":"in programma"}${loc?(" a "+loc):""}.</div>`;
-    return;
-  }
+  if(!evs.length){ box.innerHTML = `<div class="empty">Nessun evento ${view==="7"?"nei prossimi 7 giorni":"in programma"}${zona?(" a "+esc(zona)):""}${tipo?(" · "+(TIPO_LABEL[tipo])):""}.</div>`; return; }
   const byDay = {};
-  evs.forEach(e => { (byDay[e.data] = byDay[e.data] || []).push(e); });
+  evs.forEach(e => (byDay[e.data]=byDay[e.data]||[]).push(e));
   let html = "";
   Object.keys(byDay).sort().forEach(d => {
     html += `<div class="day"><h2>${fmtData(d)}</h2></div>`;
-    byDay[d].sort((a,b)=> (b.stelle-a.stelle) || (a.ora||"").localeCompare(b.ora||""));
+    byDay[d].sort((a,b)=>(b.stelle-a.stelle)||(a.ora||"").localeCompare(b.ora||""));
     byDay[d].forEach(e => html += card(e));
   });
   box.innerHTML = html;
 }
 
+function buildZone(){
+  const zonas = [...new Set(source().concat((DATA.eventiFuturi||[]).map(norm)).map(e=>e.zona).filter(Boolean))].sort();
+  const sel = document.getElementById("zona");
+  zonas.forEach(z => { const o=document.createElement("option"); o.value=z; o.textContent=z; sel.appendChild(o); });
+}
+
 function bind(){
   document.querySelectorAll("#view button").forEach(b => b.onclick = () => {
-    document.querySelectorAll("#view button").forEach(x=>x.classList.remove("on"));
-    b.classList.add("on"); view = b.dataset.view; render();
+    document.querySelectorAll("#view button").forEach(x=>x.classList.remove("on")); b.classList.add("on"); view=b.dataset.view; render();
   });
+  document.getElementById("zona").onchange = (e) => { zona = e.target.value; render(); };
   document.querySelectorAll(".chip").forEach(b => b.onclick = () => {
-    document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));
-    b.classList.add("on"); loc = b.dataset.loc; render();
+    document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on")); b.classList.add("on"); tipo=b.dataset.tipo; render();
   });
 }
 
-fetch("./events.json").then(r => r.json()).then(d => {
+fetch("./events.json").then(r=>r.json()).then(d => {
   DATA = d;
-  const c = d.copertura || {};
-  document.getElementById("sub").innerHTML =
-    `Punta Marina &amp; Marina di Ravenna · aggiornato il ${esc(d.generatoIl||"")}`;
+  const c = d.copertura||{};
+  const nZone = c.zone_totali || c.stabilimenti_totali || "?";
+  document.getElementById("sub").innerHTML = `Lidi ravennati, Cervia, Cesenatico + cultura in Romagna · aggiornato il ${esc(d.generatoIl||"")}${d.versione?(" · v"+esc(d.versione)):""}`;
   document.getElementById("note").innerHTML =
-    `<b>Copertura.</b> ${c.stabilimenti_totali||"?"} bagni analizzati · ${(d.eventiFuturi||[]).length} eventi futuri, ${(d.eventiProssimi7gg||[]).length} nei prossimi 7 giorni. ` +
-    `Senza login Instagram è cieco e Facebook diretto è debole: il grosso arriva da ticketing, stampa locale e agenda del Comune, quindi la lista non è esaustiva. Verifica sempre data e orario sulla pagina del locale.`;
-  bind(); render();
+    `<b>Copertura.</b> ${nZone} ${c.zone_totali?"zone":"bagni"} analizzati · ${(d.eventiFuturi||[]).length} eventi futuri, ${(d.eventiProssimi7gg||[]).length} nei prossimi 7 giorni. ` +
+    `Senza login IG/FB diretti sono deboli: il grosso arriva da hub turistici, agende comunali, stampa locale e ticketing. Sulle spiagge dense (Cervia/Milano Marittima/Cesenatico) si coprono i macro-eventi, non ogni singolo bagno. Verifica sempre sulla pagina del locale/ente.`;
+  buildZone(); bind(); render();
 }).catch(() => {
-  document.getElementById("list").innerHTML =
-    `<div class="empty">Non riesco a caricare <code>events.json</code>.<br>Apri questa pagina via GitHub Pages o un server locale (il browser blocca fetch da file://).</div>`;
+  document.getElementById("list").innerHTML = `<div class="empty">Non riesco a caricare <code>events.json</code>.<br>Apri via GitHub Pages o un server locale (il browser blocca fetch da file://).</div>`;
 });
 </script>
 </body>
