@@ -1,0 +1,271 @@
+{
+  "generatoIl": "2026-06-03",
+  "finestra7gg": {
+    "da": "2026-06-03",
+    "a": "2026-06-10"
+  },
+  "legenda_stelle": {
+    "3": "culturale",
+    "2": "concerto/musica",
+    "1": "culinario"
+  },
+  "eventiProssimi7gg": [
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Core Mato + La Riva",
+      "data": "2026-06-06",
+      "ora": "",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Serata di musica dal vivo all'Hana-Bi con Core Mato e La Riva. Ingresso gratuito.",
+      "fonte": "https://rivieradisco.it/tickets/hana-bi/",
+      "confidenza": "alta",
+      "verifica": "confermato"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Beaches Brew Festival 2026 (XIII edizione) - giorno 1",
+      "data": "2026-06-09",
+      "ora": "18:30",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Prima giornata del festival internazionale di musica indipendente sulla spiaggia dell'Hana-Bi, ad ingresso gratuito. Lineup: Fulu Miziki, Good Flying Birds, Joshua Idehen, Julian Mayorga, Los Sara Fontan, Carte Gold (dj set). Warm up ore 18.30, concerti dalle 19.00.",
+      "fonte": "https://www.indieforbunnies.com/2026/05/03/beaches-brew-2026-a-marina-di-ravenna-ecco-il-cast-completo/",
+      "confidenza": "alta",
+      "verifica": "confermato"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Beaches Brew Festival 2026 (XIII edizione) - giorno 2",
+      "data": "2026-06-10",
+      "ora": "18:30",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Seconda giornata del Beaches Brew all'Hana-Bi, ingresso gratuito. Lineup: Kodaclips, M(h)aol, Madra Salach, Memorials, Prewn, DJ Fitz (dj set).",
+      "fonte": "https://www.indieforbunnies.com/2026/05/03/beaches-brew-2026-a-marina-di-ravenna-ecco-il-cast-completo/",
+      "confidenza": "alta",
+      "verifica": "confermato"
+    }
+  ],
+  "eventiDaVerificare": [],
+  "eventiFuturi": [
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Core Mato + La Riva",
+      "data": "2026-06-06",
+      "ora": "",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Serata di musica dal vivo all'Hana-Bi con Core Mato e La Riva. Ingresso gratuito.",
+      "fonte": "https://rivieradisco.it/tickets/hana-bi/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Beaches Brew Festival 2026 (XIII edizione) - giorno 1",
+      "data": "2026-06-09",
+      "ora": "18:30",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Prima giornata del festival internazionale di musica indipendente sulla spiaggia dell'Hana-Bi, ad ingresso gratuito. Lineup: Fulu Miziki, Good Flying Birds, Joshua Idehen, Julian Mayorga, Los Sara Fontan, Carte Gold (dj set). Warm up ore 18.30, concerti dalle 19.00.",
+      "fonte": "https://www.indieforbunnies.com/2026/05/03/beaches-brew-2026-a-marina-di-ravenna-ecco-il-cast-completo/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Beaches Brew Festival 2026 (XIII edizione) - giorno 2",
+      "data": "2026-06-10",
+      "ora": "18:30",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Seconda giornata del Beaches Brew all'Hana-Bi, ingresso gratuito. Lineup: Kodaclips, M(h)aol, Madra Salach, Memorials, Prewn, DJ Fitz (dj set).",
+      "fonte": "https://www.indieforbunnies.com/2026/05/03/beaches-brew-2026-a-marina-di-ravenna-ecco-il-cast-completo/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Beaches Brew Festival 2026 (XIII edizione) - giorno 3",
+      "data": "2026-06-11",
+      "ora": "18:30",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Terza e ultima giornata del Beaches Brew all'Hana-Bi, ingresso gratuito. Lineup: Alex Fernet, Camilla Sparksss, La Valentina, Napoli Segreta (dj set), Super Jet Kinoko, The Zawose Queens.",
+      "fonte": "https://www.indieforbunnies.com/2026/05/03/beaches-brew-2026-a-marina-di-ravenna-ecco-il-cast-completo/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Hernandez & Sampedro band",
+      "data": "2026-06-19",
+      "ora": "",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto della Hernandez & Sampedro band all'Hana-Bi. Ingresso gratuito (Free Entry).",
+      "fonte": "https://rivieradisco.it/tickets/hana-bi/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "TVOD",
+      "data": "2026-06-20",
+      "ora": "",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto dei TVOD all'Hana-Bi. Ingresso gratuito.",
+      "fonte": "https://rivieradisco.it/tickets/hana-bi/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Lucky Salvadori",
+      "data": "2026-06-21",
+      "ora": "18:00",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto di Lucky Salvadori all'Hana-Bi, ore 18.00. Ingresso gratuito.",
+      "fonte": "https://rivieradisco.it/tickets/hana-bi/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Reverend Beat-Man & Milan Slick",
+      "data": "2026-06-25",
+      "ora": "",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto di Reverend Beat-Man & Milan Slick all'Hana-Bi. Ingresso gratuito.",
+      "fonte": "https://rivieradisco.it/tickets/hana-bi/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Bagno Peter Pan",
+      "localita": "Marina di Ravenna",
+      "titolo": "Sick Tamburo in concerto",
+      "data": "2026-07-08",
+      "ora": "20:00",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto della band alternative rock Sick Tamburo al Bagno Peter Pan di Marina di Ravenna. Data confermata da più fonti di ticketing musicale (Shazam, Songkick).",
+      "fonte": "https://www.shazam.com/event/venue/ab4c95bd-f173-4c7a-aa3e-6c1e81eee9e6",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Glimmer",
+      "data": "2026-07-09",
+      "ora": "",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto dei Glimmer all'Hana-Bi. Ingresso gratuito.",
+      "fonte": "https://rivieradisco.it/tickets/hana-bi/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Cardinals",
+      "data": "2026-07-10",
+      "ora": "",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto dei Cardinals all'Hana-Bi. Ingresso gratuito.",
+      "fonte": "https://rivieradisco.it/tickets/hana-bi/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Rolando Bruno",
+      "data": "2026-07-12",
+      "ora": "18:00",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto di Rolando Bruno all'Hana-Bi, ore 18.00. Ingresso gratuito.",
+      "fonte": "https://rivieradisco.it/tickets/hana-bi/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Hana Bi",
+      "localita": "Marina di Ravenna",
+      "titolo": "Dead Meadow",
+      "data": "2026-07-22",
+      "ora": "",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto dei Dead Meadow all'Hana-Bi. Ingresso gratuito.",
+      "fonte": "https://rivieradisco.it/tickets/hana-bi/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Bagno Peter Pan",
+      "localita": "Marina di Ravenna",
+      "titolo": "Under Fest 2026 (festival hip hop)",
+      "data": "2026-07-22",
+      "ora": "",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Festival hip hop Under Fest al Bagno Peter Pan, dal 22 al 24 luglio 2026, a cura di CISIM e Comune di Ravenna - Ufficio Politiche Giovanili. Ingresso gratuito; programma dettagliato in via di definizione.",
+      "fonte": "https://www.turismo.ra.it/eventi/altri-eventi/capitale-del-mare-eventi/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Bagno Peter Pan",
+      "localita": "Marina di Ravenna",
+      "titolo": "Rancore Live - Tarek da colorare Live (Under Festival)",
+      "data": "2026-07-23",
+      "ora": "",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto di Rancore al Bagno Peter Pan nell'ambito dell'Under Festival, tappa del tour estivo 'Tarek da colorare Live'. Data confermata dall'annuncio ufficiale del tour e da stampa musicale.",
+      "fonte": "https://www.musicadalpalco.com/2026/04/02/rancore-tarek-da-colorare-live-i-concerti-estate-2026-calendario/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Bagno Peter Pan",
+      "localita": "Marina di Ravenna",
+      "titolo": "Mauro Ermanno Giovanardi in concerto (ospite Cristina Donà)",
+      "data": "2026-08-05",
+      "ora": "21:30",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto di Mauro Ermanno Giovanardi al Bagno Peter Pan, tour 'E poi scegliere con cura le parole', con ospite speciale Cristina Donà. Ingresso gratuito (free entry). Data confermata dal ticketing ufficiale Trident Music e da stampa musicale.",
+      "fonte": "https://www.tridentmusic.it/eventi-trident-music/e-poi-scegliere-con-cura-le-parole/",
+      "confidenza": "alta"
+    },
+    {
+      "stabilimento": "Mosquito Coast",
+      "localita": "Marina di Ravenna",
+      "titolo": "Concerto lillians (punk)",
+      "data": "2026-08-23",
+      "ora": "16:00",
+      "tipo": "concerto_musica",
+      "stelle": 2,
+      "descrizione": "Concerto della band punk lillians al Bagno Mosquito (Viale delle Nazioni 194, Marina di Ravenna). Unica data live in programma annunciata per il locale, biglietti via Bandsintown.",
+      "fonte": "https://www.shazam.com/event/venue/b106ae7e-7f82-4a79-abf7-fda4cb05c5cb",
+      "confidenza": "alta"
+    }
+  ],
+  "copertura": {
+    "stabilimenti_totali": 65,
+    "stabilimenti_processati": 65,
+    "lettura_diretta": 11,
+    "solo_search": 49,
+    "non_trovato": 5,
+    "batch_mancanti": 0,
+    "eventi_date_invalide": 0,
+    "eventi_senza_fonte": 0
+  },
+  "_nota": "stabilimenti_non_riconosciuti rimosso: era un falso positivo (gli agenti accodavano la localita al nome)."
+}
