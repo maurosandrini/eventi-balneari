@@ -129,7 +129,7 @@
       "comune": "Massa Lombarda",
       "fonte": "https://www.bassaromagnamia.it/events/archivissima/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -189,7 +189,7 @@
       "comune": "Brisighella",
       "fonte": "https://www.brisighella.org/eventi-2/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -204,7 +204,7 @@
       "comune": "Castel Bolognese",
       "fonte": "https://www.castelbolognesenews.eu/2026/05/presenze-terrestri-al-mulino-scodellino-dal-30-maggio-al-7-settembre-2026-la-personale-di-roberto-perino-tra-materia-memoria-e-suggestioni-naturali",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -245,7 +245,7 @@
       "comune": "Cesenatico",
       "fonte": "https://visitcesenatico.it/vivi-cesenatico/eventi/festival-olistico",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -260,7 +260,7 @@
       "comune": "Brisighella",
       "fonte": "https://www.brisighella.org/eventi-2/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -275,7 +275,7 @@
       "comune": "Conselice",
       "fonte": "https://www.ravennanotizie.it/2026/05/04/conselice-tante-iniziative-per-il-maggio-dei-libri/605660",
       "confidenza": "media",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -290,7 +290,7 @@
       "comune": "Imola",
       "fonte": "https://www.culturaimola.it/objects/reading-club-ponticelli-compie-10-anni",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -305,7 +305,7 @@
       "comune": "Bologna",
       "fonte": "https://www.archiginnasio.it/calendario",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -320,7 +320,7 @@
       "comune": "Ravenna",
       "fonte": "https://www.ravennaedintorni.it/cultura/2026/03/26/sabati-al-cortile-ivano-mazzini/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -335,7 +335,7 @@
       "comune": "Ravenna",
       "fonte": "https://www.ravennaedintorni.it/societa/2026/03/18/festival-delle-culture-programma/",
       "confidenza": "media",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -350,7 +350,7 @@
       "comune": "Faenza",
       "fonte": "https://ilpiccolo.org/ilpiccolo/2026/06/bottega-bertaccini-incontri-autore/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -365,7 +365,7 @@
       "comune": "Santarcangelo di Romagna",
       "fonte": "https://www.baldinisantarcangelo.it/giugno-2026-biblioteca-baldini/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -380,7 +380,7 @@
       "comune": "Imola",
       "fonte": "https://www.culturaimola.it/objects/il-giorno-dopo-festival-ca-vaina",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -395,7 +395,7 @@
       "comune": "Rimini",
       "fonte": "https://www.riminitoday.it/eventi/finalisti-premio-strega-teatro-galli-stregatour-ciclo-incontri-6-giugno-2026.html",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -410,7 +410,7 @@
       "comune": "Castel Bolognese",
       "fonte": "https://www.castelbolognesenews.eu/2026/05/sabato-6-giugno-a-biancanigo-arriva-e-sempre-domenico-musica-arte-e-sapori-a-biancanigo/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -425,7 +425,7 @@
       "comune": "Ravenna",
       "fonte": "https://rivieradisco.it/tickets/hana-bi/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -490,7 +490,7 @@
       "comune": "Santarcangelo di Romagna",
       "fonte": "https://www.musasantarcangelo.it/",
       "confidenza": "media",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -505,7 +505,7 @@
       "comune": "Ravenna",
       "fonte": "https://www.ravennafestival.org/en/events/nobilissima-visione/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -520,7 +520,7 @@
       "comune": "Marradi",
       "fonte": "https://www.mugellotoscana.it/it/eventi/tag/23-marradi.html",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -560,7 +560,7 @@
       "comune": "Bologna",
       "fonte": "https://www.archiginnasio.it/calendario",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -575,7 +575,7 @@
       "comune": "Bologna",
       "fonte": "https://www.bibliotecasalaborsa.it/calendario",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -590,7 +590,7 @@
       "comune": "Castel Bolognese",
       "fonte": "https://www.castelbolognesenews.eu/2026/06/senza-chiedere-permesso-l8-giugno-una-conferenza-spettacolo-sulle-donne-che-hanno-cambiato-la-storia/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -631,7 +631,7 @@
       "comune": "Bologna",
       "fonte": "https://www.librerie.coop/eventi/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -646,7 +646,7 @@
       "comune": "Bologna",
       "fonte": "https://www.librerie.coop/eventi/",
       "confidenza": "media",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -661,7 +661,7 @@
       "comune": "Imola",
       "fonte": "https://www.librerie.coop/eventi/presentazione-del-libro-burattinai-la-prima-indagine-delle-lavandaie-imola/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -676,7 +676,7 @@
       "comune": "Ravenna",
       "fonte": "https://www.beachesbrew.com/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -691,7 +691,7 @@
       "comune": "Casola Valsenio",
       "fonte": "https://www.viaggiemiraggi.info/tag/casola-valsenio/",
       "confidenza": "media",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -758,7 +758,7 @@
       "comune": "Bologna",
       "fonte": "https://www.bibliotecasalaborsa.it/calendario",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -773,7 +773,7 @@
       "comune": "Forli",
       "fonte": "https://www.forlitoday.it/eventi/paese-sedani-volanti-presentazione-libro.html",
       "confidenza": "media",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -788,7 +788,7 @@
       "comune": "Bologna",
       "fonte": "https://www.bibliotecasalaborsa.it/calendario",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -803,7 +803,7 @@
       "comune": "Ravenna",
       "fonte": "https://comune.ravenna.it/vivere-il-comune/eventi/spettacolo-teatrale/il-grande-teatro-di-lido-adriano-viaggio-in-occidente",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -818,7 +818,7 @@
       "comune": "Ravenna",
       "fonte": "https://www.marinadiravenna.org/eventibacino/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -833,7 +833,7 @@
       "comune": "Bologna",
       "fonte": "https://www.librerie.coop/eventi/",
       "confidenza": "media",
-      "verifica": "errore",
+      "verifica": "da_verificare",
       "scala": "principale"
     },
     {
@@ -848,7 +848,7 @@
       "comune": "Russi",
       "fonte": "https://www.ilrestodelcarlino.it/ravenna/cronaca/russi-incontri-con-lautore-si-210f656c",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -888,7 +888,7 @@
       "comune": "Santarcangelo di Romagna",
       "fonte": "https://www.baldinisantarcangelo.it/giugno-2026-biblioteca-baldini/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -903,7 +903,7 @@
       "comune": "Bologna",
       "fonte": "https://www.bibliotecasalaborsa.it/calendario",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -918,7 +918,7 @@
       "comune": "Cotignola",
       "fonte": "https://www.bassaromagnamia.it/events/incontri-alla-biblioteca-varoli/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -933,7 +933,7 @@
       "comune": "Brisighella",
       "fonte": "https://www.brisighella.org/eventi-2/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -1051,7 +1051,7 @@
       "comune": "Rimini",
       "fonte": "https://www.comune.rimini.it/novita/comunicati/mare-di-libri-festival-dei-ragazzi-che-leggono",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -1066,7 +1066,7 @@
       "comune": "Cesenatico",
       "fonte": "https://visitcesenatico.it/vivi-cesenatico/eventi/lalla-palooza-in-vena-mazzarini",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -1081,7 +1081,7 @@
       "comune": "Ravenna",
       "fonte": "https://www.marinadiravenna.org/eventibacino/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -1096,7 +1096,7 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/gli-eventi-di-giugno-in-evidenza",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "piccolo"
     },
     {
@@ -1111,7 +1111,7 @@
       "comune": "Cesenatico",
       "fonte": "https://visitcesenatico.it/vivi-cesenatico/eventi/serate-games-estate-2026",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "confermato",
       "scala": "principale"
     },
     {
@@ -1178,7 +1178,7 @@
       "comune": "Brisighella",
       "fonte": "https://www.boschiromagnoli.it/2026-06-12-lucciole-brisighella/",
       "confidenza": "alta",
-      "verifica": "errore",
+      "verifica": "link_morto",
       "scala": "piccolo"
     }
   ],
