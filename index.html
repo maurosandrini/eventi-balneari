@@ -55,6 +55,7 @@
 
 <div class="controls"><div class="wrap">
   <div class="seg" id="view"><button data-view="7" class="on">Prossimi 7 giorni</button><button data-view="all">Tutti i futuri</button></div>
+  <div class="seg" id="scala"><button data-scala="principale" class="on">Principali</button><button data-scala="">Tutti</button><button data-scala="piccolo">Piccoli</button></div>
   <select id="zona"><option value="">Tutte le zone</option></select>
   <button class="chip on" data-tipo="">Tutto</button>
   <button class="chip" data-tipo="culturale">★★★ Cultura</button>
@@ -73,11 +74,13 @@
 const MESI=["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
 const GIORNI=["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
 const TIPO_LABEL={culturale:"Cultura",concerto_musica:"Musica",culinario:"Cibo",benessere:"Benessere",altro:"Altro"};
-let DATA=null,view="7",zona="",tipo="";
+const SCALA_LBL={principale:"principali",piccolo:"piccoli"};
+function scalaSuf(){return scala&&SCALA_LBL[scala]?(" · "+SCALA_LBL[scala]):"";}
+let DATA=null,view="7",zona="",tipo="",scala="principale";
 
 function norm(e){return{titolo:e.titolo||"",data:e.data||"",ora:e.ora||"",tipo:e.tipo||"altro",stelle:e.stelle||0,
   descrizione:e.descrizione||"",fonte:e.fonte||"",luogo:e.luogo||e.stabilimento||"",zona:e.zona||e.localita||"",
-  comune:e.comune||e.localita||"",ricorrente:!!e.ricorrente,cadenza:e.cadenza||""};}
+  comune:e.comune||e.localita||"",ricorrente:!!e.ricorrente,cadenza:e.cadenza||"",scala:e.scala||""};}
 function fmtData(iso){const[y,m,d]=iso.split("-").map(Number);return GIORNI[new Date(y,m-1,d).getDay()]+" "+d+" "+MESI[m-1]+" "+y;}
 function marker(e){return e.tipo==="benessere"?'<span class="well-ico">🧘</span>':'<span class="stars">'+"★".repeat(e.stelle)+'</span>';}
 function esc(s){return(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));}
@@ -91,7 +94,8 @@ function card(e){
   return `<div class="card"><div class="top">${marker(e)} <span class="title">${esc(e.titolo)}</span> ${t} ${badge} ${rec}</div>
     <div class="venue">${esc(e.luogo)||"&nbsp;"}${loc}</div><div class="desc">${esc(e.descrizione)}</div>${src}</div>`;
 }
-function flt(arr){return arr.filter(e=>(!zona||e.zona===zona)&&(!tipo||e.tipo===tipo));}
+function scalaOk(e){if(scala==="")return true;return scala==="piccolo"?e.scala==="piccolo":e.scala!=="piccolo";}
+function flt(arr){return arr.filter(e=>(!zona||e.zona===zona)&&(!tipo||e.tipo===tipo)&&scalaOk(e));}
 
 function render(){
   const box=document.getElementById("list");
@@ -103,10 +107,10 @@ function render(){
     const byDay={}; fut.forEach(e=>(byDay[e.data]=byDay[e.data]||[]).push(e));
     Object.keys(byDay).sort().forEach(d=>{html+=`<div class="day"><h2>${fmtData(d)}</h2></div>`;
       byDay[d].sort((a,b)=>(b.stelle-a.stelle)||(a.ora||"").localeCompare(b.ora||""));byDay[d].forEach(e=>html+=card(e));});
-    if(!ric.length&&!fut.length) html=`<div class="empty">Nessun evento futuro${zona?(" a "+esc(zona)):""}${tipo?(" · "+TIPO_LABEL[tipo]):""}.</div>`;
+    if(!ric.length&&!fut.length) html=`<div class="empty">Nessun evento futuro${zona?(" a "+esc(zona)):""}${tipo?(" · "+TIPO_LABEL[tipo]):""}${scalaSuf()}.</div>`;
   } else {
     const evs=flt((DATA.eventiProssimi7gg||[]).map(norm));
-    if(!evs.length){ box.innerHTML=`<div class="empty">Nessun evento nei prossimi 7 giorni${zona?(" a "+esc(zona)):""}${tipo?(" · "+TIPO_LABEL[tipo]):""}.</div>`; return; }
+    if(!evs.length){ box.innerHTML=`<div class="empty">Nessun evento nei prossimi 7 giorni${zona?(" a "+esc(zona)):""}${tipo?(" · "+TIPO_LABEL[tipo]):""}${scalaSuf()}.</div>`; return; }
     const byDay={}; evs.forEach(e=>(byDay[e.data]=byDay[e.data]||[]).push(e));
     Object.keys(byDay).sort().forEach(d=>{html+=`<div class="day"><h2>${fmtData(d)}</h2></div>`;
       byDay[d].sort((a,b)=>(b.stelle-a.stelle)||(a.ora||"").localeCompare(b.ora||""));byDay[d].forEach(e=>html+=card(e));});
@@ -122,6 +126,7 @@ function buildZone(){
 }
 function bind(){
   document.querySelectorAll("#view button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#view button").forEach(x=>x.classList.remove("on"));b.classList.add("on");view=b.dataset.view;render();});
+  document.querySelectorAll("#scala button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#scala button").forEach(x=>x.classList.remove("on"));b.classList.add("on");scala=b.dataset.scala;render();});
   document.getElementById("zona").onchange=e=>{zona=e.target.value;render();};
   document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));b.classList.add("on");tipo=b.dataset.tipo;render();});
 }

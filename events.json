@@ -24,7 +24,8 @@
       "comune": "Cesena",
       "fonte": "https://sititematici.comune.cesena.fc.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/55837",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Buon compleanno Book City!",
@@ -38,7 +39,8 @@
       "comune": "Imola",
       "fonte": "https://www.culturaimola.it/",
       "confidenza": "media",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Di legno, carta e di altre storie. Memorie di un poeta Marangone",
@@ -52,7 +54,8 @@
       "comune": "Forli",
       "fonte": "https://www.zazoom.it/2026-06-03/legno-carta-e-zirudelle-a-palazzo-romagnoli-rivive-larte-di-edmondo-valpiani/19291801/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Gruppo di lettura \"Noi della Manfrediana\" - tema fratelli e sorelle",
@@ -66,7 +69,8 @@
       "comune": "Faenza",
       "fonte": "https://www.manfrediana.it/gruppo-di-lettura-noi-della-manfrediana-6/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Donne, Madri, Costituenti",
@@ -80,7 +84,8 @@
       "comune": "Russi",
       "fonte": "https://www.ra.cna.it/eventi/donne-madri-costituenti/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Yoga al mattino in spiaggia (Bagno Adria)",
@@ -105,7 +110,8 @@
         "ora": "07:00",
         "dal": "2026-06-04",
         "al": "2026-09-15"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Yoga al tramonto (Bagno 86 Casalounge)",
@@ -129,7 +135,8 @@
         "ora": "20:00",
         "dal": "2026-06-04",
         "al": "2026-09-15"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Granarolo Effimero - anteprima Arena delle balle di paglia",
@@ -143,7 +150,8 @@
       "comune": "Faenza",
       "fonte": "https://www.ravennaedintorni.it/cultura/2026/06/02/a-granarolo-faentino-tre-giorni-di-anteprima-dellarena-delle-balle-di-paglia/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Giudicare, punire, normalizzare. Collaborazioniste e partigiane tra Bologna, Forlì e Ravenna (1944-1955)",
@@ -157,7 +165,8 @@
       "comune": "Cesena",
       "fonte": "https://www.comune.cesena.fc.it/vivere-il-comune/eventi/giudicare-punire-normalizzare/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Le donne di Conselice dal diritto di voto all'impegno civico",
@@ -171,7 +180,8 @@
       "comune": "Conselice",
       "fonte": "https://www.ravennaedintorni.it/tempo-libero/2026/05/28/torna-la-notte-degli-archivi-storici-il-5-giugno-tre-aperture-serali-straordinarie/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Liste perdute, diritti conquistati",
@@ -185,7 +195,8 @@
       "comune": "Massa Lombarda",
       "fonte": "https://www.ravennaedintorni.it/tempo-libero/2026/05/28/torna-la-notte-degli-archivi-storici-il-5-giugno-tre-aperture-serali-straordinarie/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Happy Birdays. Birdwatching e Fotografia",
@@ -199,7 +210,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.turismo.ra.it/eventi/visite-guidate/happy-birdays/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Vita nel Bosco",
@@ -213,7 +225,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.turismo.ra.it/eventi/mostre-arte/vita-nel-bosco/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Rustida di pesce con band dal vivo",
@@ -227,7 +240,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.livingcesenatico.it/2026/05/19/villamarina-estate-2026-eventi/",
       "confidenza": "media",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Kundalini Yoga in spiaggia",
@@ -252,7 +266,8 @@
         "ora": "",
         "dal": "2026-06-04",
         "al": "2026-09-15"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Yoga al mattino in spiaggia (Bagno Tropical 22)",
@@ -277,7 +292,8 @@
         "ora": "07:00",
         "dal": "2026-06-04",
         "al": "2026-09-15"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Reading Club Ponticelli compie 10 anni",
@@ -291,7 +307,8 @@
       "comune": "Imola",
       "fonte": "https://www.culturaimola.it/",
       "confidenza": "media",
-      "verifica": "errore"
+      "verifica": "errore",
+      "scala": "principale"
     },
     {
       "titolo": "il.teatro si svela",
@@ -305,7 +322,8 @@
       "comune": "Imola",
       "fonte": "https://visitareimola.it/evento/il-teatro-si-svela/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Culture migranti alla Rocca: Le vite degli altri",
@@ -319,7 +337,8 @@
       "comune": "Ravenna",
       "fonte": "https://parolapertamagazine.it/festival-delle-culture-2026/",
       "confidenza": "media",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Core Mato + La Riva",
@@ -333,7 +352,8 @@
       "comune": "Ravenna",
       "fonte": "https://rivieradisco.it/tickets/hana-bi/",
       "confidenza": "media",
-      "verifica": "errore"
+      "verifica": "errore",
+      "scala": "principale"
     },
     {
       "titolo": "Mercatini del Sabato Sera",
@@ -347,7 +367,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.marinadiravenna.org/eventibacino/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Kundalini Yoga in spiaggia",
@@ -372,7 +393,8 @@
         "ora": "",
         "dal": "2026-06-04",
         "al": "2026-09-15"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Ashtanga Yoga in spiaggia (Bagno Arlecchino 25)",
@@ -396,7 +418,8 @@
         "ora": "07:00",
         "dal": "2026-06-04",
         "al": "2026-09-15"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Sunset Rituals al Papeete Beach",
@@ -420,7 +443,8 @@
         "ora": "",
         "dal": "2026-06-04",
         "al": "2026-08-31"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Yoga al mattino in spiaggia (Bagno Tropical 22)",
@@ -445,7 +469,8 @@
         "ora": "07:00",
         "dal": "2026-06-04",
         "al": "2026-09-15"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Beaches Brew Festival 2026 (XIII edizione)",
@@ -459,7 +484,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.beachesbrew.com/program2026",
       "confidenza": "alta",
-      "verifica": "errore"
+      "verifica": "errore",
+      "scala": "principale"
     },
     {
       "titolo": "Morning Awakening - Yoga Class al Papeete Beach",
@@ -484,7 +510,8 @@
         "ora": "",
         "dal": "2026-06-09",
         "al": "2026-08-31"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Yoga al mattino in spiaggia (Bagno Adria)",
@@ -509,7 +536,8 @@
         "ora": "07:00",
         "dal": "2026-06-04",
         "al": "2026-09-15"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Narrativa in galleria (prima edizione)",
@@ -523,7 +551,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.marinadiravenna.org/eventibacino/",
       "confidenza": "alta",
-      "verifica": "errore"
+      "verifica": "errore",
+      "scala": "principale"
     },
     {
       "titolo": "E...state con noi: Nicoletta Verna presenta L'inverno delle stelle",
@@ -537,7 +566,8 @@
       "comune": "Russi",
       "fonte": "https://www.ravennanotizie.it/2026/06/02/a-russi-torna-e-state-con-noi-la-rassegna-con-autori-e-grandi-storie/609513",
       "confidenza": "media",
-      "verifica": "errore"
+      "verifica": "errore",
+      "scala": "principale"
     },
     {
       "titolo": "Beaches Brew 2026: seconda giornata",
@@ -551,7 +581,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.beachesbrew.com/program2026",
       "confidenza": "alta",
-      "verifica": "errore"
+      "verifica": "errore",
+      "scala": "principale"
     },
     {
       "titolo": "Il Grande Teatro di Lido Adriano - Viaggio in Occidente",
@@ -565,7 +596,8 @@
       "comune": "Ravenna",
       "fonte": "https://comune.ravenna.it/vivere-il-comune/eventi/spettacolo-teatrale/il-grande-teatro-di-lido-adriano-viaggio-in-occidente",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Hatha Yoga al mare",
@@ -589,7 +621,8 @@
         "ora": "19:00",
         "dal": "2026-06-01",
         "al": "2026-08-30"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "80° del voto alle donne: Madri Costituenti",
@@ -603,7 +636,8 @@
       "comune": "Russi",
       "fonte": "https://www.ravennatoday.it/eventi/russi-estate-2026-un-mosaico-di-cultura-musica-e-convivialita-sotto-le-stelle-tutti-gli-appuntamenti.html",
       "confidenza": "media",
-      "verifica": "errore"
+      "verifica": "errore",
+      "scala": "principale"
     },
     {
       "titolo": "Classense Silent Reading Party",
@@ -617,7 +651,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.classense.ra.it/eventi/letture/classense-silent-reading-party-2/",
       "confidenza": "alta",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Beaches Brew 2026: terza giornata",
@@ -631,7 +666,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.beachesbrew.com/program2026",
       "confidenza": "alta",
-      "verifica": "errore"
+      "verifica": "errore",
+      "scala": "principale"
     },
     {
       "titolo": "Borgomarina Vetrina di Romagna",
@@ -645,7 +681,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative",
       "confidenza": "media",
-      "verifica": "confermato"
+      "verifica": "confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Mercatino dell'artigianato artistico a Pinarella",
@@ -659,7 +696,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative",
       "confidenza": "media",
-      "verifica": "errore"
+      "verifica": "errore",
+      "scala": "principale"
     },
     {
       "titolo": "Morning Awakening - Yoga Class al Papeete Beach",
@@ -684,7 +722,8 @@
         "ora": "",
         "dal": "2026-06-09",
         "al": "2026-08-31"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Yoga al mattino in spiaggia (Bagno Adria)",
@@ -709,7 +748,8 @@
         "ora": "07:00",
         "dal": "2026-06-04",
         "al": "2026-09-15"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Pilates in spiaggia",
@@ -734,7 +774,8 @@
         "ora": "08:30",
         "dal": "2026-06-11",
         "al": "2026-08-31"
-      }
+      },
+      "scala": "principale"
     },
     {
       "titolo": "Yoga al tramonto (Bagno 86 Casalounge)",
@@ -758,7 +799,8 @@
         "ora": "20:00",
         "dal": "2026-06-04",
         "al": "2026-09-15"
-      }
+      },
+      "scala": "principale"
     }
   ],
   "eventiDaVerificare": [
@@ -774,7 +816,8 @@
       "comune": "Ravenna",
       "fonte": "https://comune.ravenna.it/vivere-il-comune/eventi/lettura-pubblica/lora-che-volge-il-disio/",
       "confidenza": "alta",
-      "verifica": "non_confermato"
+      "verifica": "non_confermato",
+      "scala": "principale"
     },
     {
       "titolo": "I codici in mostra",
@@ -788,7 +831,8 @@
       "comune": "Cesena",
       "fonte": "https://sititematici.comune.cesena.fc.it/i-codici-in-mostra",
       "confidenza": "alta",
-      "verifica": "non_confermato"
+      "verifica": "non_confermato",
+      "scala": "principale"
     },
     {
       "titolo": "Genitori social ai tempi di Facebook e WhatsApp (presentazione libro)",
@@ -802,7 +846,8 @@
       "comune": "Cesena",
       "fonte": "https://sititematici.comune.cesena.fc.it/cesenacultura",
       "confidenza": "media",
-      "verifica": "non_confermato"
+      "verifica": "non_confermato",
+      "scala": "principale"
     }
   ],
   "eventiFuturi": [
@@ -818,7 +863,8 @@
       "comune": "Ravenna",
       "fonte": "https://comune.ravenna.it/vivere-il-comune/eventi/lettura-pubblica/lora-che-volge-il-disio/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Donne, Madri, Costituenti",
@@ -832,7 +878,8 @@
       "comune": "Russi",
       "fonte": "https://www.ra.cna.it/eventi/donne-madri-costituenti/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Gruppo di lettura \"Noi della Manfrediana\" - tema fratelli e sorelle",
@@ -846,7 +893,8 @@
       "comune": "Faenza",
       "fonte": "https://www.manfrediana.it/gruppo-di-lettura-noi-della-manfrediana-6/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Buon compleanno Book City!",
@@ -860,7 +908,8 @@
       "comune": "Imola",
       "fonte": "https://www.culturaimola.it/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Di legno, carta e di altre storie. Memorie di un poeta Marangone",
@@ -874,7 +923,8 @@
       "comune": "Forli",
       "fonte": "https://www.zazoom.it/2026-06-03/legno-carta-e-zirudelle-a-palazzo-romagnoli-rivive-larte-di-edmondo-valpiani/19291801/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Esperidi (mostra)",
@@ -888,7 +938,8 @@
       "comune": "Cesena",
       "fonte": "https://sititematici.comune.cesena.fc.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/55837",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "I codici in mostra",
@@ -902,7 +953,8 @@
       "comune": "Cesena",
       "fonte": "https://sititematici.comune.cesena.fc.it/i-codici-in-mostra",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Granarolo Effimero - anteprima Arena delle balle di paglia",
@@ -916,7 +968,8 @@
       "comune": "Faenza",
       "fonte": "https://www.ravennaedintorni.it/cultura/2026/06/02/a-granarolo-faentino-tre-giorni-di-anteprima-dellarena-delle-balle-di-paglia/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Giudicare, punire, normalizzare. Collaborazioniste e partigiane tra Bologna, Forlì e Ravenna (1944-1955)",
@@ -930,7 +983,8 @@
       "comune": "Cesena",
       "fonte": "https://www.comune.cesena.fc.it/vivere-il-comune/eventi/giudicare-punire-normalizzare/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Genitori social ai tempi di Facebook e WhatsApp (presentazione libro)",
@@ -944,7 +998,8 @@
       "comune": "Cesena",
       "fonte": "https://sititematici.comune.cesena.fc.it/cesenacultura",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Le donne di Conselice dal diritto di voto all'impegno civico",
@@ -958,7 +1013,8 @@
       "comune": "Conselice",
       "fonte": "https://www.ravennaedintorni.it/tempo-libero/2026/05/28/torna-la-notte-degli-archivi-storici-il-5-giugno-tre-aperture-serali-straordinarie/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Liste perdute, diritti conquistati",
@@ -972,7 +1028,8 @@
       "comune": "Massa Lombarda",
       "fonte": "https://www.ravennaedintorni.it/tempo-libero/2026/05/28/torna-la-notte-degli-archivi-storici-il-5-giugno-tre-aperture-serali-straordinarie/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Happy Birdays. Birdwatching e Fotografia",
@@ -986,7 +1043,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.turismo.ra.it/eventi/visite-guidate/happy-birdays/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Vita nel Bosco",
@@ -1000,7 +1058,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.turismo.ra.it/eventi/mostre-arte/vita-nel-bosco/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Rustida di pesce con band dal vivo",
@@ -1014,7 +1073,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.livingcesenatico.it/2026/05/19/villamarina-estate-2026-eventi/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Culture migranti alla Rocca: Le vite degli altri",
@@ -1028,7 +1088,8 @@
       "comune": "Ravenna",
       "fonte": "https://parolapertamagazine.it/festival-delle-culture-2026/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "il.teatro si svela",
@@ -1042,7 +1103,8 @@
       "comune": "Imola",
       "fonte": "https://visitareimola.it/evento/il-teatro-si-svela/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Reading Club Ponticelli compie 10 anni",
@@ -1056,7 +1118,8 @@
       "comune": "Imola",
       "fonte": "https://www.culturaimola.it/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Core Mato + La Riva",
@@ -1070,7 +1133,8 @@
       "comune": "Ravenna",
       "fonte": "https://rivieradisco.it/tickets/hana-bi/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Mercatini del Sabato Sera",
@@ -1084,7 +1148,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.marinadiravenna.org/eventibacino/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Beaches Brew Festival 2026 (XIII edizione)",
@@ -1098,7 +1163,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.beachesbrew.com/program2026",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Narrativa in galleria (prima edizione)",
@@ -1112,7 +1178,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.marinadiravenna.org/eventibacino/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "E...state con noi: Nicoletta Verna presenta L'inverno delle stelle",
@@ -1126,7 +1193,8 @@
       "comune": "Russi",
       "fonte": "https://www.ravennanotizie.it/2026/06/02/a-russi-torna-e-state-con-noi-la-rassegna-con-autori-e-grandi-storie/609513",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Beaches Brew 2026: seconda giornata",
@@ -1140,7 +1208,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.beachesbrew.com/program2026",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Il Grande Teatro di Lido Adriano - Viaggio in Occidente",
@@ -1154,7 +1223,8 @@
       "comune": "Ravenna",
       "fonte": "https://comune.ravenna.it/vivere-il-comune/eventi/spettacolo-teatrale/il-grande-teatro-di-lido-adriano-viaggio-in-occidente",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Classense Silent Reading Party",
@@ -1168,7 +1238,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.classense.ra.it/eventi/letture/classense-silent-reading-party-2/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "80° del voto alle donne: Madri Costituenti",
@@ -1182,7 +1253,8 @@
       "comune": "Russi",
       "fonte": "https://www.ravennatoday.it/eventi/russi-estate-2026-un-mosaico-di-cultura-musica-e-convivialita-sotto-le-stelle-tutti-gli-appuntamenti.html",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Beaches Brew 2026: terza giornata",
@@ -1196,7 +1268,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.beachesbrew.com/program2026",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Borgomarina Vetrina di Romagna",
@@ -1210,7 +1283,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Mercatino dell'artigianato artistico a Pinarella",
@@ -1224,7 +1298,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "European Archaeology Days - apertura mostra a Cervia",
@@ -1238,7 +1313,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/en/events/events-and-initiatives/june-events",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Sagra della Porchetta a Sala",
@@ -1252,7 +1328,8 @@
       "comune": "Cesenatico",
       "fonte": "https://strapi.visitcesenatico.it/uploads/BROCHURE_GIUGNO_2026_aaecf8fea1.pdf",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "piccolo"
     },
     {
       "titolo": "Crudelissima virago (Festival Caterina Sforza)",
@@ -1266,7 +1343,8 @@
       "comune": "Forli",
       "fonte": "https://sestopotere.com/festival-caterina-sforza-lanticonformista-la-parola-chiave-delledizione-2026-e-confini/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "In-Fine La Vita (Un Mistero) (Festival Caterina Sforza)",
@@ -1280,7 +1358,8 @@
       "comune": "Forli",
       "fonte": "https://sestopotere.com/festival-caterina-sforza-lanticonformista-la-parola-chiave-delledizione-2026-e-confini/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "L'Adriatico a Tavola",
@@ -1294,7 +1373,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.marinadiravenna.org/eventibacino/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Crisalidi: mostra collettiva",
@@ -1308,7 +1388,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.marinadiravenna.org/eventibacino/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Spaghettoni - La Cena Spettacolo #OnTheBeach",
@@ -1322,7 +1403,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.bagnoadriatico.it/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "La misteriosa scomparsa di W",
@@ -1336,7 +1418,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/eventi-multipli/ambra-angiolini",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Giovanni dalle Bande Nere. Il Gran Diavolo da Forli (Festival Caterina Sforza)",
@@ -1350,7 +1433,8 @@
       "comune": "Forli",
       "fonte": "https://sestopotere.com/festival-caterina-sforza-lanticonformista-la-parola-chiave-delledizione-2026-e-confini/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Le dirimpettaie (Festival Caterina Sforza)",
@@ -1364,7 +1448,8 @@
       "comune": "Forli",
       "fonte": "https://sestopotere.com/festival-caterina-sforza-lanticonformista-la-parola-chiave-delledizione-2026-e-confini/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Musica Ragazzi! Concerto alla Pieve di Pisignano",
@@ -1378,7 +1463,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/musica",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Torneo Beach Soccer giovanile AICS",
@@ -1392,7 +1478,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.bagnocorallobeach.it/eventi",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Spiritualita francescana e romualdina",
@@ -1406,7 +1493,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.ravennaedintorni.it/eventi/incontri/spiritualita-francescana-e-romualdina/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Torta della Zitella in festa",
@@ -1420,7 +1508,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "A Sangue freddo",
@@ -1434,7 +1523,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/eventi-multipli/pablo-trincia",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Presentazione libro \"Ritratto di Francesco Baracca\" di Maria Luisa Suprani Querzoli",
@@ -1448,7 +1538,8 @@
       "comune": "Lugo",
       "fonte": "https://www.museobaracca.it/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Capit Incontra 2026: rassegna letteraria (serata di apertura)",
@@ -1462,7 +1553,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.ravennatoday.it/eventi/capit-incontra-luana-beach-appuntamenti-letterari-marina-ravenna.html",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Visite guidate alla Salina Camillone",
@@ -1476,7 +1568,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Conferenza-dibattito storico \"19 giugno 1918, ore 18.40. Com'è morto Francesco Baracca?\"",
@@ -1490,7 +1583,8 @@
       "comune": "Lugo",
       "fonte": "https://www.museobaracca.it/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Hernandez & Sampedro full band",
@@ -1504,7 +1598,8 @@
       "comune": "Ravenna",
       "fonte": "https://rivieradisco.it/tickets/hana-bi/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Moka Club - Notte Rosa 2026",
@@ -1518,7 +1613,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.turismo.ra.it/en/events/music/moka-club-notte-rosa-2026",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Notte Rosa a Cervia",
@@ -1532,7 +1628,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Mister Cappelletto",
@@ -1546,7 +1643,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.puntamarinaterme.it/eventi",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Vialetto degli Artisti",
@@ -1560,7 +1658,8 @@
       "comune": "Cervia",
       "fonte": "https://www.discovercervia.com/it/events/2026/giugno/vialetto-degli-artisti",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "T.V.O.D. live",
@@ -1574,7 +1673,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.songkick.com/venues/217148-hanabi",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Notte Rosa & Festa della Musica 2026",
@@ -1588,7 +1688,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.marinadiravenna.org/eventibacino/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Notte Rosa 2026 - Radio Bruno DJ Set",
@@ -1602,7 +1703,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.livingcesenatico.it/2026/05/22/notte-rosa-2026-hits-summer/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Aperitivo di inizio estate: Lucky Salvadori + ToffoloMuzik dj set",
@@ -1616,7 +1718,8 @@
       "comune": "Ravenna",
       "fonte": "https://rivieradisco.it/tickets/hana-bi/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Notte Rosa 2026 - Clara Live Show",
@@ -1630,7 +1733,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.livingcesenatico.it/2026/05/22/notte-rosa-2026-hits-summer/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Concerto all'alba: Marco Betti & the Night Howlers",
@@ -1644,7 +1748,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.livingcesenatico.it/2026/05/08/concerti-alba-notturni-conserve-calendario-estate-2026/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Ghe Pensi Mar 2026",
@@ -1658,7 +1763,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.turismo.ra.it/eventi/festival/ghe-pensi-mar/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Cesenatico Poesia Festival - Dove ci conduce questo suono",
@@ -1672,7 +1778,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.corriereromagna.it/cesenatico/cesenatico-il-festival-della-poesia-torna-dal-24-al-27-giugno-NX2044906",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Festival Poesia: lo sbarco dei poeti",
@@ -1686,7 +1793,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.corriereromagna.it/cesenatico/cesenatico-il-festival-della-poesia-torna-dal-24-al-27-giugno-NX2044906",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "E...state con noi: Deborah Dirani presenta Vertigini",
@@ -1700,7 +1808,8 @@
       "comune": "Russi",
       "fonte": "https://www.ravennanotizie.it/2026/06/02/a-russi-torna-e-state-con-noi-la-rassegna-con-autori-e-grandi-storie/609513",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Reverend Beat-Man & Milan Slick",
@@ -1714,7 +1823,8 @@
       "comune": "Ravenna",
       "fonte": "https://rivieradisco.it/tickets/hana-bi/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Open day agli scavi di Cervia Vecchia",
@@ -1728,7 +1838,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/en/events/events-and-initiatives/june-events",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Musica Ragazzi! Concerto all'Oratorio San Lorenzo",
@@ -1742,7 +1853,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/musica",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "piccolo"
     },
     {
       "titolo": "Festival Poesia: maratona di lettura con Murubutu",
@@ -1756,7 +1868,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.corriereromagna.it/cesenatico/cesenatico-il-festival-della-poesia-torna-dal-24-al-27-giugno-NX2044906",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Hit Parade Party",
@@ -1770,7 +1883,8 @@
       "comune": "Cervia",
       "fonte": "https://www.discovercervia.com/it/events/2026/maggio/milano-marittima-naturalmente-iconica-eventi-2026",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "piccolo"
     },
     {
       "titolo": "Riviera del gusto Incozzati",
@@ -1784,7 +1898,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Conferenza inaugurale \"Intelligenze Alimentari\"",
@@ -1798,7 +1913,8 @@
       "comune": "Forlimpopoli",
       "fonte": "https://www.festartusiana.it/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Buskers Music Festival",
@@ -1812,7 +1928,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.vivicesena.it/buskers-music-festival",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Albe musicali in riva al mare nella Riviera dei Pini",
@@ -1826,7 +1943,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/musica",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Sara Rattaro presenta \"Il vestito di mia madre\"",
@@ -1840,7 +1958,8 @@
       "comune": "Bagnacavallo",
       "fonte": "https://www.bassaromagnamia.it/events/eventi-al-chiostro-del-museo-delle-cappuccine/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Notturni alle Conserve: Concerto Lirico",
@@ -1854,7 +1973,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.livingcesenatico.it/2026/05/08/concerti-alba-notturni-conserve-calendario-estate-2026/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Paolo Fresu e Mariangela Gualtieri - Nel grande aperto",
@@ -1868,7 +1988,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/eventi-multipli/fresu-gualtieri",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Franco Arminio: reading di poesia",
@@ -1882,7 +2003,8 @@
       "comune": "Bertinoro",
       "fonte": "https://entroterrefestival.it/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Buskers di Classe 2026 (1ª edizione)",
@@ -1896,7 +2018,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.turismo.ra.it/eventi/altri-eventi/capitale-del-mare-eventi/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "piccolo"
     },
     {
       "titolo": "Cosmo in concerto",
@@ -1910,7 +2033,8 @@
       "comune": "Cesenatico",
       "fonte": "https://visitcesenatico.it/vivi-cesenatico/eventi/cesenatico-e-i-grandi-eventi-tutto-lanno/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Notturni alle Conserve: Trio d'Archi",
@@ -1924,7 +2048,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.livingcesenatico.it/2026/05/08/concerti-alba-notturni-conserve-calendario-estate-2026/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Classense Silent Reading Party",
@@ -1938,7 +2063,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.classense.ra.it/eventi/letture/classense-silent-reading-party-2/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Marco Masini Live - Cervia Summer Festival",
@@ -1952,7 +2078,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/musica",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "La Cozza Selvaggia in Festa",
@@ -1966,7 +2093,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.turismo.ra.it/eventi/altri-eventi/capitale-del-mare-eventi/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Arisa Live a Cervia - Cervia Summer Festival",
@@ -1980,7 +2108,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/musica",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Concerto della Grande Orchestra Citta di Cervia a Pinarella",
@@ -1994,7 +2123,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/musica",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Rustida in Casina",
@@ -2008,7 +2138,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Francesco Gabbani - Live Tour 2026",
@@ -2022,7 +2153,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/musica",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Concerto all'alba: Tensor",
@@ -2036,7 +2168,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.livingcesenatico.it/2026/05/08/concerti-alba-notturni-conserve-calendario-estate-2026/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Wu Ming 2 presenta \"Mensalieri\"",
@@ -2050,7 +2183,8 @@
       "comune": "Bagnacavallo",
       "fonte": "https://www.bassaromagnamia.it/events/eventi-al-chiostro-del-museo-delle-cappuccine/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Luca Carboni - Rio Ari O Live",
@@ -2064,7 +2198,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/musica",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Cervia, la spiaggia ama il libro - 34a edizione",
@@ -2078,7 +2213,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/en/events/events-and-initiatives/conferences-conventions-and-seminars/cervia-books-on-the-beach",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Tony Hadley a Cervia",
@@ -2092,7 +2228,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/musica",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Milano Marittima Festi Jazz - 6ª edizione",
@@ -2106,7 +2243,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/milano-marittima-jazz-festival",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Elementi 2026 - Bear Bones Lay Low / Ernesto González",
@@ -2120,7 +2258,8 @@
       "comune": "Cervia",
       "fonte": "https://www.turismo.comunecervia.it/it/eventi/manifestazioni-e-iniziative/musica/elementi-2026",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Concerto all'alba: Lisa Manara, Aldo Betto, Riccardo Catria",
@@ -2134,7 +2273,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.livingcesenatico.it/2026/05/08/concerti-alba-notturni-conserve-calendario-estate-2026/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Patty Pravo - Opera Tour in concerto",
@@ -2148,7 +2288,8 @@
       "comune": "Cesenatico",
       "fonte": "https://visitcesenatico.it/vivi-cesenatico/eventi/cesenatico-e-i-grandi-eventi-tutto-lanno/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Concerto all'alba: Spacepony",
@@ -2162,7 +2303,8 @@
       "comune": "Cesenatico",
       "fonte": "https://www.livingcesenatico.it/2026/05/08/concerti-alba-notturni-conserve-calendario-estate-2026/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Tradizionale Festa di Garibaldi",
@@ -2176,7 +2318,8 @@
       "comune": "Cesenatico",
       "fonte": "https://visitcesenatico.it/vivi-cesenatico/eventi/cesenatico-e-i-grandi-eventi-tutto-lanno/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Classense Silent Reading Party",
@@ -2190,7 +2333,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.classense.ra.it/eventi/letture/classense-silent-reading-party-2/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Tramonto DiVino sul mare",
@@ -2204,7 +2348,8 @@
       "comune": "Cesenatico",
       "fonte": "https://visitcesenatico.it/vivi-cesenatico/eventi/cesenatico-e-i-grandi-eventi-tutto-lanno/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Concerto live Moka Club con cena",
@@ -2218,7 +2363,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.ravennatoday.it/eventi/location/bagno-corallo-beach-a-marina-romea/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "La Rustida dei Pescatori",
@@ -2232,7 +2378,8 @@
       "comune": "Cesenatico",
       "fonte": "https://visitcesenatico.it/vivi-cesenatico/eventi/cesenatico-e-i-grandi-eventi-tutto-lanno/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Alfa in concerto",
@@ -2246,7 +2393,8 @@
       "comune": "Cesenatico",
       "fonte": "https://visitcesenatico.it/vivi-cesenatico/eventi/cesenatico-e-i-grandi-eventi-tutto-lanno/",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Buskers di Classe 2026 (2ª edizione)",
@@ -2260,7 +2408,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.turismo.ra.it/eventi/altri-eventi/capitale-del-mare-eventi/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "piccolo"
     },
     {
       "titolo": "Franciacorta Festival - Bollicine & Glamour",
@@ -2274,7 +2423,8 @@
       "comune": "Cervia",
       "fonte": "https://www.discovercervia.com/it/events/2026/maggio/milano-marittima-naturalmente-iconica-eventi-2026",
       "confidenza": "media",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     },
     {
       "titolo": "Kalemana Festival 2026",
@@ -2288,7 +2438,8 @@
       "comune": "Ravenna",
       "fonte": "https://www.kalemanafestival.it/",
       "confidenza": "alta",
-      "verifica": ""
+      "verifica": "",
+      "scala": "principale"
     }
   ],
   "eventiRicorrenti": [
@@ -2314,7 +2465,8 @@
         "dal": "2026-06-11",
         "al": "2026-08-31"
       },
-      "cadenza": "ogni mar/gio alle 08:30"
+      "cadenza": "ogni mar/gio alle 08:30",
+      "scala": "principale"
     },
     {
       "titolo": "Cardio Step GAG in spiaggia",
@@ -2338,7 +2490,8 @@
         "dal": "2026-06-10",
         "al": "2026-08-31"
       },
-      "cadenza": "ogni lun/ven alle 17:30"
+      "cadenza": "ogni lun/ven alle 17:30",
+      "scala": "principale"
     },
     {
       "titolo": "Circuit Training in spiaggia",
@@ -2361,7 +2514,8 @@
         "dal": "2026-06-12",
         "al": "2026-08-31"
       },
-      "cadenza": "ogni mer alle 17:30"
+      "cadenza": "ogni mer alle 17:30",
+      "scala": "principale"
     },
     {
       "titolo": "Risveglio muscolare in spiaggia",
@@ -2385,7 +2539,8 @@
         "dal": "2026-06-17",
         "al": "2026-08-31"
       },
-      "cadenza": "ogni lun/mer alle 08:30"
+      "cadenza": "ogni lun/mer alle 08:30",
+      "scala": "principale"
     },
     {
       "titolo": "Kundalini Yoga in spiaggia",
@@ -2409,7 +2564,8 @@
         "dal": "2026-06-04",
         "al": "2026-09-15"
       },
-      "cadenza": "ogni ven/sab"
+      "cadenza": "ogni ven/sab",
+      "scala": "principale"
     },
     {
       "titolo": "Nordic Walking nella pineta - Riviera dei Pini",
@@ -2432,7 +2588,8 @@
         "dal": "2026-06-23",
         "al": "2026-09-01"
       },
-      "cadenza": "ogni mar alle 06:45"
+      "cadenza": "ogni mar alle 06:45",
+      "scala": "piccolo"
     },
     {
       "titolo": "Morning Awakening - Yoga Class al Papeete Beach",
@@ -2456,7 +2613,8 @@
         "dal": "2026-06-09",
         "al": "2026-08-31"
       },
-      "cadenza": "ogni mar/gio"
+      "cadenza": "ogni mar/gio",
+      "scala": "principale"
     },
     {
       "titolo": "Sunset Rituals al Papeete Beach",
@@ -2479,7 +2637,8 @@
         "dal": "2026-06-04",
         "al": "2026-08-31"
       },
-      "cadenza": "ogni dom"
+      "cadenza": "ogni dom",
+      "scala": "principale"
     },
     {
       "titolo": "Hatha Yoga al mare",
@@ -2502,7 +2661,8 @@
         "dal": "2026-06-01",
         "al": "2026-08-30"
       },
-      "cadenza": "ogni mer alle 19:00"
+      "cadenza": "ogni mer alle 19:00",
+      "scala": "principale"
     },
     {
       "titolo": "Yoga al mattino in spiaggia (Bagno Tropical 22)",
@@ -2526,7 +2686,8 @@
         "dal": "2026-06-04",
         "al": "2026-09-15"
       },
-      "cadenza": "ogni lun/ven alle 07:00"
+      "cadenza": "ogni lun/ven alle 07:00",
+      "scala": "principale"
     },
     {
       "titolo": "Yoga al mattino in spiaggia (Bagno Adria)",
@@ -2550,7 +2711,8 @@
         "dal": "2026-06-04",
         "al": "2026-09-15"
       },
-      "cadenza": "ogni mar/gio alle 07:00"
+      "cadenza": "ogni mar/gio alle 07:00",
+      "scala": "principale"
     },
     {
       "titolo": "Ashtanga Yoga in spiaggia (Bagno Arlecchino 25)",
@@ -2573,7 +2735,8 @@
         "dal": "2026-06-04",
         "al": "2026-09-15"
       },
-      "cadenza": "ogni sab alle 07:00"
+      "cadenza": "ogni sab alle 07:00",
+      "scala": "principale"
     },
     {
       "titolo": "Yoga al tramonto (Bagno 86 Casalounge)",
@@ -2596,7 +2759,8 @@
         "dal": "2026-06-04",
         "al": "2026-09-15"
       },
-      "cadenza": "ogni gio alle 20:00"
+      "cadenza": "ogni gio alle 20:00",
+      "scala": "principale"
     }
   ],
   "copertura": {
@@ -2637,5 +2801,6 @@
     "benessere_malformati": 1,
     "ricorrenze_scadute": 0,
     "attivita_ricorrenti": 13
-  }
+  },
+  "_scalaBackfill": "euristico-dominio 2026-06-05 (rimpiazzato dal tag a monte dal run v0.6)"
 }
