@@ -1884,7 +1884,7 @@
       "fonte": "https://www.discovercervia.com/it/events/2026/maggio/milano-marittima-naturalmente-iconica-eventi-2026",
       "confidenza": "media",
       "verifica": "",
-      "scala": "piccolo"
+      "scala": "principale"
     },
     {
       "titolo": "Riviera del gusto Incozzati",
@@ -2019,7 +2019,7 @@
       "fonte": "https://www.turismo.ra.it/eventi/altri-eventi/capitale-del-mare-eventi/",
       "confidenza": "alta",
       "verifica": "",
-      "scala": "piccolo"
+      "scala": "principale"
     },
     {
       "titolo": "Cosmo in concerto",
@@ -2409,7 +2409,7 @@
       "fonte": "https://www.turismo.ra.it/eventi/altri-eventi/capitale-del-mare-eventi/",
       "confidenza": "alta",
       "verifica": "",
-      "scala": "piccolo"
+      "scala": "principale"
     },
     {
       "titolo": "Franciacorta Festival - Bollicine & Glamour",
@@ -2589,7 +2589,7 @@
         "al": "2026-09-01"
       },
       "cadenza": "ogni mar alle 06:45",
-      "scala": "piccolo"
+      "scala": "principale"
     },
     {
       "titolo": "Morning Awakening - Yoga Class al Papeete Beach",
