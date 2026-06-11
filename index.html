@@ -38,6 +38,7 @@
   .badge{font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;padding:2px 7px;border-radius:6px;color:#fff}
   .b-culturale{background:var(--cult)} .b-concerto_musica{background:var(--music)} .b-culinario{background:var(--food)} .b-benessere{background:var(--well)} .b-altro{background:#6b7a7c}
   .rec{font-size:.7rem;background:#eaf5ee;color:var(--well);border:1px solid #bfe0cd;padding:2px 7px;border-radius:6px}
+  .fest{font-size:.7rem;background:#f3eefa;color:var(--cult);border:1px solid #d9c8ec;padding:2px 7px;border-radius:6px}
   .ver{font-size:.7rem;background:#fdf3e0;color:#9a6b12;border:1px solid #ecd6a4;padding:2px 7px;border-radius:6px}
   .ver.dead{background:#f4eeee;color:#8a5050;border-color:#dcc4c4}
   .stale{margin:14px 0 0;padding:10px 14px;background:#fdf3e0;border:1px solid #ecd6a4;border-radius:12px;font-size:.85rem;color:#9a6b12}
@@ -66,6 +67,7 @@
   <button class="chip" data-tipo="concerto_musica">★★ Musica</button>
   <button class="chip" data-tipo="culinario">★ Cibo</button>
   <button class="chip" data-tipo="benessere">🧘 Benessere</button>
+  <button class="chip" data-tipo="festival">🎪 Festival</button>
   <button class="chip" data-tipo="altro">Altro</button>
 </div></div>
 
@@ -80,7 +82,7 @@
 // ===== logica pura (testabile, nessun DOM fino al marcatore) =====
 const MESI=["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"];
 const GIORNI=["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
-const TIPO_LABEL={culturale:"Cultura",concerto_musica:"Musica",culinario:"Cibo",benessere:"Benessere",altro:"Altro"};
+const TIPO_LABEL={culturale:"Cultura",concerto_musica:"Musica",culinario:"Cibo",benessere:"Benessere",altro:"Altro",festival:"Festival"};
 const SCALA_LBL={principale:"principali",piccolo:"piccoli"};
 const DOW={dom:0,lun:1,mar:2,mer:3,gio:4,ven:5,sab:6};
 const ORD=["lun","mar","mer","gio","ven","sab","dom"];
@@ -91,7 +93,7 @@ function isoLocal(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(
 function addDays(iso,n){const[y,m,d]=iso.split("-").map(Number);return isoLocal(new Date(y,m-1,d+n));}
 function norm(e){return{titolo:e.titolo||"",data:e.data||"",ora:e.ora||"",tipo:e.tipo||"altro",stelle:e.stelle||0,
   descrizione:e.descrizione||"",fonte:e.fonte||"",luogo:e.luogo||e.stabilimento||"",zona:e.zona||e.localita||"",
-  comune:e.comune||e.localita||"",ricorrente:!!e.ricorrente,cadenza:e.cadenza||"",scala:e.scala||"",verifica:e.verifica||""};}
+  comune:e.comune||e.localita||"",ricorrente:!!e.ricorrente,cadenza:e.cadenza||"",scala:e.scala||"",verifica:e.verifica||"",festival:e.festival||""};}
 function fmtData(iso){const[y,m,d]=iso.split("-").map(Number);const base=GIORNI[new Date(y,m-1,d).getDay()]+" "+d+" "+MESI[m-1]+" "+y;
   if(iso===TODAY)return"Oggi · "+base; if(iso===addDays(TODAY,1))return"Domani · "+base; return base;}
 function marker(e){return e.tipo==="benessere"?'<span class="well-ico">🧘</span>':'<span class="stars">'+"★".repeat(e.stelle)+'</span>';}
@@ -113,16 +115,18 @@ function eventi7gg(){
   const occ=(DATA.eventiRicorrenti||[]).flatMap(expandRic).map(norm);
   return one.concat(occ);}
 function scalaOk(e){if(scala==="")return true;return scala==="piccolo"?e.scala==="piccolo":e.scala!=="piccolo";}
-function flt(arr){return arr.filter(e=>(!zona||e.zona===zona)&&(!tipo||e.tipo===tipo)&&scalaOk(e));}
+function tipoOk(e){if(!tipo)return true;return tipo==="festival"?!!e.festival:e.tipo===tipo;}
+function flt(arr){return arr.filter(e=>(!zona||e.zona===zona)&&tipoOk(e)&&scalaOk(e));}
 
 function card(e){
   const t=e.ora?`<span class="time">${esc(e.ora)}</span>`:"";
   const badge=`<span class="badge b-${e.tipo}">${TIPO_LABEL[e.tipo]||"Evento"}</span>`;
   const rec=e.ricorrente&&e.cadenza?`<span class="rec">${esc(e.cadenza)}</span>`:"";
+  const fest=e.festival?`<span class="fest">🎪 ${esc(e.festival)}</span>`:"";
   const ver=e.verifica==="da_verificare"?'<span class="ver">da confermare</span>':(e.verifica==="link_morto"?'<span class="ver dead">fonte irraggiungibile</span>':"");
   const loc=e.comune&&e.comune!==e.luogo?` <span class="loc">· ${esc(e.comune)}</span>`:(e.zona?` <span class="loc">· ${esc(e.zona)}</span>`:"");
   const src=/^https?:\/\//i.test(e.fonte)?`<div class="src">↗ <a href="${esc(e.fonte)}" target="_blank" rel="noopener">fonte</a></div>`:"";
-  return `<div class="card"><div class="top">${marker(e)} <span class="title">${esc(e.titolo)}</span> ${t} ${badge} ${rec} ${ver}</div>
+  return `<div class="card"><div class="top">${marker(e)} <span class="title">${esc(e.titolo)}</span> ${t} ${badge} ${fest} ${rec} ${ver}</div>
     <div class="venue">${esc(e.luogo)||"&nbsp;"}${loc}</div><div class="desc">${esc(e.descrizione)}</div>${src}</div>`;
 }
 function giorniHtml(evs){let html="";const byDay={};evs.forEach(e=>(byDay[e.data]=byDay[e.data]||[]).push(e));
