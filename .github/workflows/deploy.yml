@@ -1,0 +1,29 @@
+name: Deploy su Hostinger
+
+on:
+  push:
+    branches: [main]
+    paths: ["index.html", "events.json"]
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    # si attiva solo quando la variabile di repo DEPLOY_ENABLED è "true"
+    # (Settings -> Secrets and variables -> Actions -> Variables)
+    if: vars.DEPLOY_ENABLED == 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          server-dir: public_html/
+          local-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/design/**
+            CLAUDE.md
+            README.md
