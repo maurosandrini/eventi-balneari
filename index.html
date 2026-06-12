@@ -28,6 +28,8 @@
   .brand{font-weight:700;letter-spacing:-.02em} .brand .zuc{color:var(--well)}
   header p{margin:0;color:var(--ink2);font-size:14px}
   .legend{margin-top:10px;font-size:13px;color:var(--ink3)}
+  .fresh{display:inline-flex;align-items:center;gap:6px;margin-top:10px;background:var(--well-bg);color:var(--well);font-size:13px;font-weight:600;padding:5px 12px;border-radius:999px}
+  .fresh::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--well)}
   .controls{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--hair);padding:10px 0}
   .controls .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
   .seg{display:inline-flex;background:var(--soft);border-radius:999px;overflow:hidden}
@@ -95,6 +97,7 @@
 <header><div class="wrap">
   <h1 class="brand">l'eco della <span class="zuc">zucchina</span></h1>
   <p id="sub">Lidi ravennati, Cervia, Cesenatico + cultura in Romagna + attività in spiaggia e pineta</p>
+  <div class="fresh">aggiornato ogni mattina alle 6:00</div>
   <div class="legend">★★★ culturale · ★★ musica · ★ cibo · 🧘 benessere</div>
 </div></header>
 
@@ -232,7 +235,7 @@ fetch("./events.json").then(r=>r.json()).then(d=>{
   DATA=d; TODAY=isoLocal(new Date()); END7=addDays(TODAY,7);
   (d.eventiProssimi7gg||[]).forEach(e=>{if(e.verifica&&!e.ricorrente)VMAP[vkey(norm(e))]=e.verifica;});
   const c=d.copertura||{}; const nZone=c.zone_totali||c.stabilimenti_totali||"?";
-  document.getElementById("sub").innerHTML=`Spiagge, cultura e benessere in Romagna · aggiornato ogni mattina alle 6:00${d.versione?(" · v"+esc(d.versione)):""}`;
+  document.getElementById("sub").innerHTML=`Spiagge, cultura e benessere in Romagna${d.versione?(" · v"+esc(d.versione)):""}`;
   const futOggi=(d.eventiFuturi||[]).filter(e=>(e.data||"")>=TODAY).length;
   const nZoneVere=[...new Set((d.eventiFuturi||[]).map(e=>e.zona).filter(Boolean))].length;
   document.getElementById("note").innerHTML=`<b>Niente pubblicità. Niente login. Niente Instagram. Niente.</b> Solo eventi che vale la pena fare una sera d'estate in Romagna: dal festival al concerto gratis in piazza. ${futOggi} eventi verificati, ${nZoneVere} zone. Tutto qui.`;
