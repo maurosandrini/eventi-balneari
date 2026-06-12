@@ -97,7 +97,7 @@
 <body>
 <header><div class="wrap">
   <h1 class="brand">l'eco della <span class="zuc">zucchina</span></h1>
-  <p id="sub">Lidi ravennati, Cervia, Cesenatico + cultura in Romagna + attività in spiaggia e pineta</p>
+  <p id="sub">Spiagge, cultura e benessere a Bologna e in Romagna</p>
   <div class="fresh">aggiornato ogni mattina alle 6:00</div>
   <p class="claim" id="claim"></p>
   <div class="legend">★★★ culturale · ★★ musica · ★ cibo · 🧘 benessere</div>
@@ -236,7 +236,7 @@ fetch("./events.json").then(r=>r.json()).then(d=>{
   DATA=d; TODAY=isoLocal(new Date()); END7=addDays(TODAY,7);
   (d.eventiProssimi7gg||[]).forEach(e=>{if(e.verifica&&!e.ricorrente)VMAP[vkey(norm(e))]=e.verifica;});
   const c=d.copertura||{}; const nZone=c.zone_totali||c.stabilimenti_totali||"?";
-  document.getElementById("sub").innerHTML=`Spiagge, cultura e benessere in Romagna${d.versione?(" · v"+esc(d.versione)):""}`;
+  document.getElementById("sub").innerHTML=`Spiagge, cultura e benessere a Bologna e in Romagna${d.versione?(" · v"+esc(d.versione)):""}`;
   const futOggi=(d.eventiFuturi||[]).filter(e=>(e.data||"")>=TODAY).length;
   const nZoneVere=[...new Set((d.eventiFuturi||[]).map(e=>e.zona).filter(Boolean))].length;
   document.getElementById("claim").innerHTML=`<b>Niente pubblicità. Niente login. Niente Instagram. Niente.</b> Solo eventi che vale la pena fare una sera d'estate in Romagna: dal festival al concerto gratis in piazza. ${futOggi} eventi verificati, ${nZoneVere} zone. Tutto qui.`;
