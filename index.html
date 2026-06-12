@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f7f8f9" />
 <title>L'eco della zucchina · eventi in Romagna</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A5%92%3C/text%3E%3C/svg%3E" />
-<meta name="description" content="Calendario eventi: concerti e serate sulle spiagge, cultura nelle citta della Romagna, attivita di benessere (yoga ecc.) in spiaggia e pineta." />
+<meta name="description" content="Calendario eventi: concerti e serate sulle spiagge, cultura nelle città della Romagna, attività di benessere (yoga ecc.) in spiaggia e pineta." />
 <style>
   /* design system v2 (riferimento Luma): valori SOLO da design/tokens.json */
   :root {
@@ -36,6 +36,11 @@
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23131517' fill-opacity='.4'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center}
   .chip{border:0;background:var(--soft);border-radius:999px;padding:8px 12px;font-size:13px;font-weight:500;color:var(--ink2);cursor:pointer}
   .chip.on{background:var(--ink);color:#fff}
+  .zonepick{padding:16px 0 0}
+  .zonepick h2{font-size:14px;font-weight:600;margin:0 0 10px;color:var(--ink)}
+  .zones{display:flex;flex-wrap:wrap;gap:8px}
+  .zchip{border:0;background:var(--soft);border-radius:999px;padding:8px 12px;font-size:13px;font-weight:500;color:var(--ink2);cursor:pointer}
+  .zchip.on{background:var(--ink);color:#fff}
   main{padding:16px 0 64px}
   .group{position:relative;padding-left:20px;margin-top:24px}
   .group::before{content:"";position:absolute;left:4px;top:6px;bottom:0;border-left:2px dashed var(--hair)}
@@ -88,6 +93,11 @@
   <p id="sub">Lidi ravennati, Cervia, Cesenatico + cultura in Romagna + attività in spiaggia e pineta</p>
   <div class="legend">★★★ culturale · ★★ musica · ★ cibo · 🧘 benessere</div>
 </div></header>
+
+<div class="zonepick"><div class="wrap">
+  <h2>Scegli la tua zona</h2>
+  <div class="zones" id="zonechips"></div>
+</div></div>
 
 <div class="controls"><div class="wrap">
   <div class="seg" id="view"><button data-view="7" class="on">Prossimi 7 giorni</button><button data-view="all">Tutti i futuri</button></div>
@@ -189,12 +199,17 @@ function buildZone(){
   const all=(DATA.eventiFuturi||[]).map(norm).filter(e=>e.data>=TODAY).concat((DATA.eventiRicorrenti||[]).map(norm));
   const zonas=[...new Set(all.map(e=>e.zona).filter(Boolean))].sort();
   const sel=document.getElementById("zona");
-  zonas.forEach(z=>{const o=document.createElement("option");o.value=z;o.textContent=z;sel.appendChild(o);});
+  const lbl=z=>z.replace(/\bcitta\b/,"città"); // solo etichetta: il valore dati resta intatto per i filtri
+  zonas.forEach(z=>{const o=document.createElement("option");o.value=z;o.textContent=lbl(z);sel.appendChild(o);});
+  const box=document.getElementById("zonechips");
+  ["",...zonas].forEach(z=>{const b=document.createElement("button");b.className="zchip"+(z===""?" on":"");b.dataset.zona=z;
+    b.textContent=z?lbl(z):"Tutte le zone";b.onclick=()=>{zona=z;sel.value=z;syncZchips();render();};box.appendChild(b);});
 }
+function syncZchips(){document.querySelectorAll(".zchip").forEach(x=>x.classList.toggle("on",(x.dataset.zona||"")===zona));}
 function bind(){
   document.querySelectorAll("#view button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#view button").forEach(x=>x.classList.remove("on"));b.classList.add("on");view=b.dataset.view;render();});
   document.querySelectorAll("#scala button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#scala button").forEach(x=>x.classList.remove("on"));b.classList.add("on");scala=b.dataset.scala;render();});
-  document.getElementById("zona").onchange=e=>{zona=e.target.value;render();};
+  document.getElementById("zona").onchange=e=>{zona=e.target.value;syncZchips();render();};
   document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));b.classList.add("on");tipo=b.dataset.tipo;render();});
 }
 fetch("./events.json").then(r=>r.json()).then(d=>{
