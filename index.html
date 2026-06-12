@@ -30,6 +30,7 @@
   .legend{margin-top:10px;font-size:13px;color:var(--ink3)}
   .fresh{display:inline-flex;align-items:center;gap:6px;margin-top:10px;background:var(--well-bg);color:var(--well);font-size:13px;font-weight:600;padding:5px 12px;border-radius:999px}
   .fresh::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--well)}
+  .claim{margin:10px 0 0;font-size:13px;color:var(--ink2);max-width:560px;line-height:1.5} .claim b{color:var(--ink)}
   .controls{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--hair);padding:10px 0}
   .controls .wrap{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
   .seg{display:inline-flex;background:var(--soft);border-radius:999px;overflow:hidden}
@@ -98,6 +99,7 @@
   <h1 class="brand">l'eco della <span class="zuc">zucchina</span></h1>
   <p id="sub">Lidi ravennati, Cervia, Cesenatico + cultura in Romagna + attività in spiaggia e pineta</p>
   <div class="fresh">aggiornato ogni mattina alle 6:00</div>
+  <p class="claim" id="claim"></p>
   <div class="legend">★★★ culturale · ★★ musica · ★ cibo · 🧘 benessere</div>
 </div></header>
 
@@ -122,7 +124,6 @@
     <div id="stale"></div>
     <div id="list"><p class="empty">Carico gli eventi…</p></div>
   </div>
-  <aside class="side-col"><div class="note" id="note"></div></aside>
 </div></main>
 <footer>Utility privata · dati da fonti pubbliche, verifica sempre su pagina del locale/ente.</footer>
 
@@ -238,7 +239,7 @@ fetch("./events.json").then(r=>r.json()).then(d=>{
   document.getElementById("sub").innerHTML=`Spiagge, cultura e benessere in Romagna${d.versione?(" · v"+esc(d.versione)):""}`;
   const futOggi=(d.eventiFuturi||[]).filter(e=>(e.data||"")>=TODAY).length;
   const nZoneVere=[...new Set((d.eventiFuturi||[]).map(e=>e.zona).filter(Boolean))].length;
-  document.getElementById("note").innerHTML=`<b>Niente pubblicità. Niente login. Niente Instagram. Niente.</b> Solo eventi che vale la pena fare una sera d'estate in Romagna: dal festival al concerto gratis in piazza. ${futOggi} eventi verificati, ${nZoneVere} zone. Tutto qui.`;
+  document.getElementById("claim").innerHTML=`<b>Niente pubblicità. Niente login. Niente Instagram. Niente.</b> Solo eventi che vale la pena fare una sera d'estate in Romagna: dal festival al concerto gratis in piazza. ${futOggi} eventi verificati, ${nZoneVere} zone. Tutto qui.`;
   const gen=d.aggiornatoIl||d.generatoIl||""; if(gen){const age=Math.round((new Date(TODAY)-new Date(gen))/86400000);
     if(age>7)document.getElementById("stale").innerHTML=`<div class="stale">⚠️ Dati raccolti ${age} giorni fa (${esc(gen)}): gli eventi più recenti potrebbero mancare. Serve un refresh.</div>`;}
   try{const z=localStorage.getItem("eb_zona");if(z&&zoneCounts().cnt[z])zona=z;}catch(_){}
