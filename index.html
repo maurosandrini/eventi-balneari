@@ -60,7 +60,24 @@
   .empty{background:var(--card);border:1px dashed var(--dotb);border-radius:16px;padding:24px;text-align:center;color:var(--ink3)}
   .note{margin-top:32px;padding:16px;background:var(--card);border:1px solid var(--hair);border-radius:16px;font-size:13px;color:var(--ink3)} .note b{color:var(--ink)}
   footer{text-align:center;color:var(--ink3);font-size:12px;padding:24px}
-  @media (max-width:560px){h1{font-size:24px}}
+  /* mobile (<=560px): header compatto, filtri in una riga scorrevole */
+  @media (max-width:560px){
+    h1{font-size:24px}
+    header{padding:24px 0 4px;padding-top:calc(24px + env(safe-area-inset-top,0))}
+    .controls .wrap{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}
+    .controls .wrap::-webkit-scrollbar{display:none}
+    .seg,.chip,select{flex:0 0 auto}
+    .seg button,.chip{white-space:nowrap}
+    .group{padding-left:16px}
+    .card{padding:12px}
+  }
+  /* desktop (>=980px): due colonne alla Luma, nota di copertura sticky a lato */
+  @media (min-width:980px){
+    .wrap{max-width:980px}
+    .layout{display:grid;grid-template-columns:1fr 280px;gap:48px;align-items:start}
+    .side-col{position:sticky;top:64px}
+    .side-col .note{margin-top:24px}
+  }
 </style>
 </head>
 <body>
@@ -83,11 +100,13 @@
   <button class="chip" data-tipo="altro">Altro</button>
 </div></div>
 
-<main>
-  <div class="wrap" id="stale"></div>
-  <div class="wrap" id="list"><p class="empty">Carico gli eventi…</p></div>
-  <div class="wrap"><div class="note" id="note"></div></div>
-</main>
+<main><div class="wrap layout">
+  <div class="main-col">
+    <div id="stale"></div>
+    <div id="list"><p class="empty">Carico gli eventi…</p></div>
+  </div>
+  <aside class="side-col"><div class="note" id="note"></div></aside>
+</div></main>
 <footer>Utility privata · dati da fonti pubbliche, verifica sempre su pagina del locale/ente.</footer>
 
 <script>

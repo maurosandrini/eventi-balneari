@@ -41,6 +41,15 @@ come pillole tinte, `sea #0e7c86` SOLO per i link.
 - **Staleness** (`.stale`): blocco ambra (`warn_bg`/`warn`), radius 12px, solo
   se dati più vecchi di 7 giorni.
 
+## Responsive (rilevamento automatico via viewport, niente sniffing UA)
+- **Mobile (<=560px)**: header compatto (24px sopra), h1 24px, filtri in UNA
+  riga scorrevole orizzontale senza scrollbar, binario timeline a 16px, card
+  padding 12px.
+- **Tablet (561-979px)**: layout base, colonna singola max 680px.
+- **Desktop (>=980px)**: wrap a 980px, griglia `1fr + 280px` con gap 48px; la
+  nota di copertura va nella colonna laterale destra, sticky a 64px (come la
+  sidebar delle pagine città di Luma).
+
 ## Regole di composizione
 - Niente modal né drawer: lista a una colonna (max 680px), controlli sticky.
   Nuovo filtro = nuovo chip o seg, non popup.
