@@ -2668,8 +2668,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Lavoreremo da grandi",
@@ -3366,8 +3366,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Tutto quello che resta di te",
@@ -3533,6 +3533,40 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Lallapalooza in Vena Mazzarini",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Via Lombardia",
+   "titolo": "Festa dei vicini in via Lombardia",
+   "data": "2026-06-12",
+   "ora": "18:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Ritrovo di vicinato promosso dal Comune e dai Consigli di Zona: un'occasione per conoscersi meglio e condividere momenti conviviali tra residenti.",
+   "fonte": "https://www.comune.bagnacavallo.ra.it/openpa/object/7088",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Festa dei vicini 2026 (16ª edizione)",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Via Puccini",
+   "titolo": "Festa dei vicini in via Puccini",
+   "data": "2026-06-12",
+   "ora": "18:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Seconda festa di vicinato della serata, in contemporanea con quella di via Lombardia: incontro conviviale tra residenti della zona.",
+   "fonte": "https://www.comune.bagnacavallo.ra.it/openpa/object/7088",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Festa dei vicini 2026 (16ª edizione)",
    "verifica": "confermato"
   },
   {
@@ -4443,8 +4477,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "A cena con il dittatore",
@@ -4780,6 +4814,23 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Ravenna Festival 2026 - Nacque al mondo un sole",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Via Lina Vacchi e via Cadorna",
+   "titolo": "Festa dei vicini in via Lina Vacchi e via Cadorna",
+   "data": "2026-06-13",
+   "ora": "18:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Festa di vicinato nelle vie Lina Vacchi e Cadorna: momento di socialità e convivialità tra residenti promosso dai Consigli di Zona.",
+   "fonte": "https://www.comune.bagnacavallo.ra.it/openpa/object/7088",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Festa dei vicini 2026 (16ª edizione)",
    "verifica": "confermato"
   },
   {
@@ -5396,8 +5447,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Il mago del Cremlino - Le origini di Putin",
@@ -5796,8 +5847,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "L'anno nuovo che non arriva",
@@ -6111,8 +6162,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Piazza della Libertà",
    "titolo": "Doremi Live! - allievi della scuola comunale di musica",
@@ -6176,6 +6227,40 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Rocca Jazz 2026 (III edizione)",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Piazza della Libertà",
+   "titolo": "DOREMI LIVE! Gli alunni della scuola comunale di musica",
+   "data": "2026-06-16",
+   "ora": "21:00",
+   "tipo": "concerto_musica",
+   "stelle": 2,
+   "descrizione": "Concerto principale della serata con gli alunni della scuola comunale di musica di Bagnacavallo sul palco di piazza della Libertà.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Piazza Nuova",
+   "titolo": "Spazio musicale: Quasi Trio",
+   "data": "2026-06-16",
+   "ora": "serata",
+   "tipo": "concerto_musica",
+   "stelle": 2,
+   "descrizione": "Musica dal vivo del gruppo Quasi Trio in piazza Nuova, nell'ambito della serata Di martedì in centro storico.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
    "verifica": "confermato"
   },
   {
@@ -6245,8 +6330,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Il filo del ricatto - Dead Man's Wire",
@@ -6296,8 +6381,76 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Centro storico (via Matteotti, piazza della Libertà, via Mazzini)",
+   "titolo": "Di martedì in centro: mercatino creativo, giochi di legno e di ingegno, area bimbi, Fulgur basket",
+   "data": "2026-06-16",
+   "ora": "serata",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Animazione serale nel centro storico con negozi aperti, mercatino creativo, giochi di legno e di ingegno, area bimbi e dimostrazioni di basket con la Fulgur.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Teatro Goldoni",
+   "titolo": "Mostra \"Obiettivo Bagnacavallo in Teatro\"",
+   "data": "2026-06-16",
+   "ora": "21:00-23:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Mostra fotografica aperta al Teatro Goldoni in occasione della serata Di martedì, visitabile dalle 21 alle 23.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Ex convento di San Francesco",
+   "titolo": "Mostra \"Risonanze empatiche\" di Serena Gattini",
+   "data": "2026-06-16",
+   "ora": "17:00-23:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Esposizione di Serena Gattini all'ex convento di San Francesco, aperta dalle 17 alle 23 nei martedì del festival.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "BiArt Gallery, Sacrario dei caduti",
+   "titolo": "Mostra \"Diventare Oceano\"",
+   "data": "2026-06-16",
+   "ora": "fino alle 22:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Mostra alla BiArt Gallery presso il Sacrario dei caduti, aperta fino alle 22 durante la serata Di martedì.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Piazzetta del Carmine",
    "titolo": "Zumba Extra Class con Team Zumba Romagna",
@@ -6310,6 +6463,40 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Bagnacavallo d'estate - Di martedì",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Via Matteotti 32",
+   "titolo": "Kangoo Power",
+   "data": "2026-06-16",
+   "ora": "serata",
+   "tipo": "benessere",
+   "stelle": 0,
+   "descrizione": "Sessione aperta di Kangoo Power, fitness con stivali rimbalzanti, in via Matteotti durante la serata Di martedì.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Piazzetta del Carmine",
+   "titolo": "Zumba extra class con il Team Zumba Romagna",
+   "data": "2026-06-16",
+   "ora": "serata",
+   "tipo": "benessere",
+   "stelle": 0,
+   "descrizione": "Lezione speciale di zumba all'aperto con il Team Zumba Romagna in piazzetta del Carmine.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
    "verifica": "confermato"
   },
   {
@@ -6605,8 +6792,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "The Sea",
@@ -6687,6 +6874,23 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "69° Niballo - Palio di Faenza",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Parco della Pace",
+   "titolo": "Festa dei vicini al Parco della Pace",
+   "data": "2026-06-17",
+   "ora": "19:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Ritrovo di vicinato al Parco della Pace: un'occasione semplice ma preziosa per rafforzare i rapporti di vicinato e la vita di comunità.",
+   "fonte": "https://www.comune.bagnacavallo.ra.it/openpa/object/7088",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Festa dei vicini 2026 (16ª edizione)",
    "verifica": "confermato"
   },
   {
@@ -6839,8 +7043,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "L'attachement - La tenerezza",
@@ -6941,6 +7145,57 @@
    "verifica": "confermato"
   },
   {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Parco di via del Trebbiano, Boncellino",
+   "titolo": "Festa dei vicini al parco di via del Trebbiano (Boncellino)",
+   "data": "2026-06-18",
+   "ora": "18:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Festa di vicinato nella frazione di Boncellino: incontro conviviale tra residenti al parco di via del Trebbiano.",
+   "fonte": "https://www.comune.bagnacavallo.ra.it/openpa/object/7088",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Festa dei vicini 2026 (16ª edizione)",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Parco del Redino",
+   "titolo": "Inaugurazione ufficiale del parco del Redino",
+   "data": "2026-06-18",
+   "ora": "18:30",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Inaugurazione del nuovo parco pubblico nato dal completamento della laminazione dell'area del Redino, alla presenza del sindaco Matteo Giacomoni, dell'assessore ai Lavori pubblici Francesco Ravagli e dei rappresentanti del Consorzio di Bonifica della Romagna Occidentale.",
+   "fonte": "https://bagnacavallocultura.it/event-item/nel-verde-suoni-e-voci-al-redino/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Nel verde - Suoni e voci al Redino",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Parco del Redino",
+   "titolo": "Introversa - stand up comedy con Paola Michelini",
+   "data": "2026-06-18",
+   "ora": "21:30",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Spettacolo di stand up comedy con Paola Michelini, proposto dalle associazioni Zona CP e IlLato Oscuro della Costa; lo spettacolo è preceduto e seguito da un dj set.",
+   "fonte": "https://bagnacavallocultura.it/event-item/nel-verde-suoni-e-voci-al-redino/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Nel verde - Suoni e voci al Redino",
+   "verifica": "confermato"
+  },
+  {
    "titolo": "Incontro con l'autore al Fantini Club (giugno)",
    "data": "2026-06-19",
    "ora": "17:00",
@@ -6993,7 +7248,7 @@
    "stelle": 3,
    "descrizione": "Serata del festival ELEMENTI dedicata al suono come pratica narrativa: presentazione del libro di Riccardo Balli \"Per un pugno di bling bling: dubbing spaghetti western\", seguita da performance dal vivo.",
    "luogo": "Parco del Bacino di laminazione Redino, Via Teodora",
-   "zona": "Romagna (altri comuni entro 30km)",
+   "zona": "Bagnacavallo",
    "comune": "Bagnacavallo",
    "fonte": "https://www.emiliaromagnanews24.it/elementi-settima-edizione-dal-10-maggio-al-31-luglio-2026-385008.html",
    "confidenza": "media",
@@ -7032,6 +7287,23 @@
    "confidenza": "media",
    "scala": "principale",
    "festival": "Fiera agricola del Santerno 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Parco del Redino",
+   "titolo": "Presentazione del libro \"Per un pugno di bling bling: dubbing spaghetti western\" di Riccardo Balli",
+   "data": "2026-06-19",
+   "ora": "sera (orario non indicato)",
+   "tipo": "culturale",
+   "stelle": 3,
+   "descrizione": "Presentazione del libro di Riccardo Balli nell'ambito della serata dedicata al suono come pratica narrativa, tappa del festival \"Elementi\" a cura di Magma.",
+   "fonte": "https://bagnacavallocultura.it/event-item/nel-verde-suoni-e-voci-al-redino/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Nel verde - Suoni e voci al Redino",
    "verifica": "confermato"
   },
   {
@@ -7367,6 +7639,40 @@
    "verifica": "confermato"
   },
   {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Parco del Redino",
+   "titolo": "Corps Citoyen live: \"Barrani\"",
+   "data": "2026-06-19",
+   "ora": "sera (orario non indicato)",
+   "tipo": "concerto_musica",
+   "stelle": 2,
+   "descrizione": "Concerto dal vivo di Corps Citoyen con il progetto \"Barrani\", all'interno della tappa bagnacavallese del festival \"Elementi\" a cura di Magma.",
+   "fonte": "https://bagnacavallocultura.it/event-item/nel-verde-suoni-e-voci-al-redino/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Nel verde - Suoni e voci al Redino",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Parco del Redino",
+   "titolo": "DJ Zoologist: \"The Animal Musicians\" (set performativo)",
+   "data": "2026-06-19",
+   "ora": "sera (orario non indicato)",
+   "tipo": "concerto_musica",
+   "stelle": 2,
+   "descrizione": "Set performativo di DJ Zoologist \"The Animal Musicians\" a chiusura della serata del festival \"Elementi\" dedicata al suono come pratica narrativa.",
+   "fonte": "https://bagnacavallocultura.it/event-item/nel-verde-suoni-e-voci-al-redino/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Nel verde - Suoni e voci al Redino",
+   "verifica": "confermato"
+  },
+  {
    "titolo": "Notte Rosa a Cervia (21a edizione)",
    "data": "2026-06-19",
    "ora": "",
@@ -7478,8 +7784,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Un bel giorno",
@@ -7849,6 +8155,23 @@
    "confidenza": "media",
    "scala": "principale",
    "festival": "Fiera agricola del Santerno 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Via Nazario Sauro",
+   "titolo": "Festa dei vicini in via Nazario Sauro",
+   "data": "2026-06-19",
+   "ora": "19:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Ritrovo di vicinato in via Nazario Sauro: momento di incontro, conoscenza e socialità tra residenti.",
+   "fonte": "https://www.comune.bagnacavallo.ra.it/openpa/object/7088",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Festa dei vicini 2026 (16ª edizione)",
    "verifica": "confermato"
   },
   {
@@ -8663,8 +8986,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Vita privata",
@@ -10100,6 +10423,23 @@
    "verifica": "confermato"
   },
   {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Parco del Redino",
+   "titolo": "Festa della musica: solstizio d'estate con pic nic e quattro band",
+   "data": "2026-06-21",
+   "ora": "18:00",
+   "tipo": "concerto_musica",
+   "stelle": 2,
+   "descrizione": "Festa della musica promossa dalla Pro Loco di Bagnacavallo per il solstizio d'estate: dalle 18 pic nic sull'erba e quattro band che si susseguono per diffondere la musica nel parco.",
+   "fonte": "https://bagnacavallocultura.it/event-item/nel-verde-suoni-e-voci-al-redino/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Nel verde - Suoni e voci al Redino",
+   "verifica": "confermato"
+  },
+  {
    "titolo": "Mille sfumature di lavanda",
    "data": "2026-06-21",
    "ora": "10:00",
@@ -10183,8 +10523,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Le cose non dette",
@@ -10727,8 +11067,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Amarga Navidad",
@@ -10965,8 +11305,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Piazza della Libertà",
    "titolo": "Viaggi e miraggi - Vittorio Bonetti e band",
@@ -11047,6 +11387,40 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Rocca Jazz 2026 (III edizione)",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Piazza della Libertà",
+   "titolo": "Viaggi e miraggi: una serata con le canzoni di Lucio Dalla",
+   "data": "2026-06-23",
+   "ora": "21:00",
+   "tipo": "concerto_musica",
+   "stelle": 2,
+   "descrizione": "Concerto dedicato alle canzoni di Lucio Dalla con Vittorio Bonetti, Robby Pellati, Mel Previte e Antonio Rigo Righetti in piazza della Libertà.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Piazza Nuova",
+   "titolo": "Spazio musicale: Lovely Weather, jazz and Weather Report",
+   "data": "2026-06-23",
+   "ora": "serata",
+   "tipo": "concerto_musica",
+   "stelle": 2,
+   "descrizione": "Musica dal vivo in piazza Nuova con i Lovely Weather, tra jazz e repertorio dei Weather Report.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
    "verifica": "confermato"
   },
   {
@@ -11165,8 +11539,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Sirat",
@@ -11182,8 +11556,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Piazzetta del Carmine",
    "titolo": "Diavoli della Frusta: spettacoli e tradizioni della Romagna",
@@ -11247,6 +11621,91 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Ravenna Festival 2026 - Nacque al mondo un sole",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Piazzetta del Carmine",
+   "titolo": "I Diavoli della Frusta: il ballo, la frusta e la nostra tradizione",
+   "data": "2026-06-23",
+   "ora": "serata",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Spettacolo di tradizione romagnola con ballo e schioccatori di frusta in piazzetta del Carmine.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Centro storico (via Matteotti, piazza della Libertà, via Mazzini)",
+   "titolo": "Di martedì in centro: mercatino creativo, giochi di legno e di ingegno, area bimbi, Fulgur basket",
+   "data": "2026-06-23",
+   "ora": "serata",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Animazione serale nel centro storico con negozi aperti, mercatino creativo, giochi di legno e di ingegno, area bimbi e dimostrazioni di basket con la Fulgur.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Teatro Goldoni",
+   "titolo": "Mostra \"Obiettivo Bagnacavallo in Teatro\"",
+   "data": "2026-06-23",
+   "ora": "21:00-23:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Mostra fotografica aperta al Teatro Goldoni in occasione della serata Di martedì, visitabile dalle 21 alle 23.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Ex convento di San Francesco",
+   "titolo": "Mostra \"Risonanze empatiche\" di Serena Gattini",
+   "data": "2026-06-23",
+   "ora": "17:00-23:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Esposizione di Serena Gattini all'ex convento di San Francesco, aperta dalle 17 alle 23 nei martedì del festival.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "BiArt Gallery, Sacrario dei caduti",
+   "titolo": "Mostra \"Diventare Oceano\"",
+   "data": "2026-06-23",
+   "ora": "fino alle 22:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Mostra alla BiArt Gallery presso il Sacrario dei caduti, aperta fino alle 22 durante la serata Di martedì.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-destate-di-martedi-giugno-in-centro-storico-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo d'estate - Di martedì 2026",
    "verifica": "confermato"
   },
   {
@@ -11533,8 +11992,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Crossing Istanbul",
@@ -11598,6 +12057,23 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Arena San Biagio 2026 (cinema sotto le stelle)",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Via della Repubblica",
+   "titolo": "Festa dei vicini in via della Repubblica",
+   "data": "2026-06-24",
+   "ora": "18:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Festa di vicinato in via della Repubblica: occasione conviviale promossa dal Comune e dai Consigli di Zona per i residenti della via.",
+   "fonte": "https://www.comune.bagnacavallo.ra.it/openpa/object/7088",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Festa dei vicini 2026 (16ª edizione)",
    "verifica": "confermato"
   },
   {
@@ -12029,8 +12505,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Nino",
@@ -12128,6 +12604,40 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Festival Strade 2026 (XX edizione)",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Area verde tra via Beltrami e via Bisanzio",
+   "titolo": "Festa dei vicini nell'area verde tra via Beltrami e via Bisanzio",
+   "data": "2026-06-25",
+   "ora": "19:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Una delle due feste di vicinato in contemporanea della serata: ritrovo conviviale nell'area verde tra via Beltrami e via Bisanzio.",
+   "fonte": "https://www.comune.bagnacavallo.ra.it/openpa/object/7088",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Festa dei vicini 2026 (16ª edizione)",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Via Mascagni",
+   "titolo": "Festa dei vicini in via Mascagni",
+   "data": "2026-06-25",
+   "ora": "19:00",
+   "tipo": "altro",
+   "stelle": 1,
+   "descrizione": "Seconda festa di vicinato della serata, in contemporanea con quella di via Beltrami/Bisanzio: incontro conviviale tra i residenti di via Mascagni.",
+   "fonte": "https://www.comune.bagnacavallo.ra.it/openpa/object/7088",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Festa dei vicini 2026 (16ª edizione)",
    "verifica": "confermato"
   },
   {
@@ -12342,8 +12852,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Pecore sotto copertura",
@@ -12806,8 +13316,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Marty Supreme",
@@ -13208,8 +13718,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "L'agente segreto",
@@ -13342,6 +13852,23 @@
    "scala": "principale"
   },
   {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Chiostro delle Cappuccine",
+   "titolo": "Bibliocaffè 2026 – Sara Rattaro",
+   "data": "2026-06-29",
+   "ora": "21:00",
+   "tipo": "culturale",
+   "stelle": 3,
+   "descrizione": "Sara Rattaro presenta il libro \"Il vestito di mia madre. Storia di Teresa Mattei, antifascista\" (Piemme) in dialogo con Emiliano Visconti. Una serata dedicata alla vita della partigiana e costituente Teresa Mattei, la più giovane eletta all'Assemblea Costituente.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bibliocaffe-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bibliocaffè 2026",
+   "verifica": "confermato"
+  },
+  {
    "zona": "Bologna",
    "tipo_zona": "citta",
    "comune": "Bologna",
@@ -13427,8 +13954,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Sotto le nuvole",
@@ -13541,6 +14068,23 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Freschi di Stampa 2026 (XXV edizione)",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Cineparco delle Cappuccine",
+   "titolo": "Le città di pianura, con Pierpaolo Capovilla in arena",
+   "data": "2026-06-30",
+   "ora": "21:30",
+   "tipo": "culturale",
+   "stelle": 3,
+   "descrizione": "Proiezione del film di Francesco Sossai con incontro in arena: Pierpaolo Capovilla, nel cast del film, dialoga con il pubblico.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-al-cinema-prima-parte-estate-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo al Cinema (42ª edizione)",
    "verifica": "confermato"
   },
   {
@@ -13678,8 +14222,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Le città di pianura",
@@ -13982,8 +14526,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "No Other Choice - Non c'è altra scelta",
@@ -14352,8 +14896,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Un semplice incidente",
@@ -14684,8 +15228,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "The Drama - Un segreto è per sempre",
@@ -14986,8 +15530,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Il diavolo veste Prada 2",
@@ -15254,8 +15798,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "La villa portoghese",
@@ -15388,6 +15932,23 @@
    "verifica": "confermato"
   },
   {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Chiostro delle Cappuccine",
+   "titolo": "Bibliocaffè 2026 – Premiazione dei racconti in 10 righe",
+   "data": "2026-07-06",
+   "ora": "non indicata",
+   "tipo": "culturale",
+   "stelle": 3,
+   "descrizione": "Premiazione del concorso di scrittura della Biblioteca: racconti in 10 righe ispirati alla frase shakespeariana \"Essere o non essere\", con partecipanti di tutte le età divisi nelle categorie over e under 14.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bibliocaffe-2026-premiazione-dei-raccont-in-in-10-righe/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bibliocaffè 2026",
+   "verifica": "confermato"
+  },
+  {
    "zona": "Ravenna citta",
    "tipo_zona": "citta",
    "comune": "Ravenna",
@@ -15507,8 +16068,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Divine Comedy",
@@ -15760,8 +16321,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Due procuratori",
@@ -15825,6 +16386,23 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Sagra dello Strozzaprete",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Cineparco delle Cappuccine",
+   "titolo": "Ultimo schiaffo, con Matteo Oleotto in arena",
+   "data": "2026-07-08",
+   "ora": "21:30",
+   "tipo": "culturale",
+   "stelle": 3,
+   "descrizione": "Proiezione del film con incontro in arena: il regista Matteo Oleotto presenta il suo Ultimo schiaffo e dialoga con il pubblico.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-al-cinema-prima-parte-estate-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo al Cinema (42ª edizione)",
    "verifica": "confermato"
   },
   {
@@ -15979,8 +16557,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Ultimo schiaffo",
@@ -16383,8 +16961,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Yellow Letters",
@@ -16819,8 +17397,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Un crimine imperfetto",
@@ -17168,8 +17746,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Tuner - L'accordatore",
@@ -17447,8 +18025,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "L'amore che rimane",
@@ -17529,6 +18107,23 @@
    "confidenza": "alta",
    "scala": "principale",
    "festival": "Sagra dello Strozzaprete",
+   "verifica": "confermato"
+  },
+  {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Chiostro delle Cappuccine",
+   "titolo": "Bibliocaffè 2026 – Wu Ming 2",
+   "data": "2026-07-13",
+   "ora": "21:00",
+   "tipo": "culturale",
+   "stelle": 3,
+   "descrizione": "Wu Ming 2 presenta il romanzo \"Mensaleri\" (Einaudi) in dialogo con Emiliano Visconti: una saga lunga oltre un secolo ambientata agli albori dell'Italia industriale, tra lotte operaie, un culto segreto e un misterioso sterminio di farfalle.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bibliocaffe-2026-2/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bibliocaffè 2026",
    "verifica": "confermato"
   },
   {
@@ -17634,8 +18229,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Father Mother Sister Brother",
@@ -17902,8 +18497,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Love Me Tender",
@@ -18168,8 +18763,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Noi due sconosciuti",
@@ -18406,8 +19001,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Le città di pianura (replica)",
@@ -18576,6 +19171,23 @@
    "verifica": "confermato"
   },
   {
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
+   "comune": "Bagnacavallo",
+   "luogo": "Cineparco delle Cappuccine",
+   "titolo": "Anna, con Monica Guerritore in arena",
+   "data": "2026-07-17",
+   "ora": "21:30",
+   "tipo": "culturale",
+   "stelle": 3,
+   "descrizione": "Proiezione con incontro in arena: Monica Guerritore, regista e interprete, presenta il suo film Anna dedicato ad Anna Magnani.",
+   "fonte": "https://bagnacavallocultura.it/event-item/bagnacavallo-al-cinema-prima-parte-estate-2026/",
+   "confidenza": "alta",
+   "scala": "principale",
+   "festival": "Bagnacavallo al Cinema (42ª edizione)",
+   "verifica": "confermato"
+  },
+  {
    "titolo": "Milano Marittima Festi Jazz",
    "data": "2026-07-17",
    "ora": "",
@@ -18727,8 +19339,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Anna",
@@ -19078,8 +19690,8 @@
    "scala": "principale"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Un inverno in Corea",
@@ -19314,8 +19926,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Sentimental Value",
@@ -19467,8 +20079,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "I colori del tempo",
@@ -19620,8 +20232,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "Nouvelle Vague",
@@ -19850,8 +20462,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "L'infiltrata",
@@ -20037,8 +20649,8 @@
    "verifica": "confermato"
   },
   {
-   "zona": "Romagna (altri comuni entro 30km)",
-   "tipo_zona": "citta",
+   "zona": "Bagnacavallo",
+   "tipo_zona": "entroterra",
    "comune": "Bagnacavallo",
    "luogo": "Cineparco delle Cappuccine, Via Berti 6",
    "titolo": "La mattina scrivo",
@@ -23144,8 +23756,8 @@
   "attivita_ricorrenti": 22,
   "festival_v08": {
    "generato_il": "2026-06-11",
-   "run": "full 26 zone (60 festival) + smoke 4 zone (24 festival), dedup per chiave evento",
-   "eventi_aggiunti": 1018,
+   "run": "full 26 zone (60 festival) + smoke 4 zone (24 festival), dedup per chiave evento + bagnacavallo (5 festival)",
+   "eventi_aggiunti": 1054,
    "duplicati_scartati_al_merge": 40,
    "check_avverso": {
     "modello": "opus-4.8",
