@@ -36,11 +36,13 @@
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23131517' fill-opacity='.4'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center}
   .chip{border:0;background:var(--soft);border-radius:999px;padding:8px 12px;font-size:13px;font-weight:500;color:var(--ink2);cursor:pointer}
   .chip.on{background:var(--ink);color:#fff}
-  .zonepick{padding:16px 0 0}
-  .zonepick h2{font-size:14px;font-weight:600;margin:0 0 10px;color:var(--ink)}
-  .zones{display:flex;flex-wrap:wrap;gap:8px}
-  .zchip{border:0;background:var(--soft);border-radius:999px;padding:8px 12px;font-size:13px;font-weight:500;color:var(--ink2);cursor:pointer}
+  .zonepick{padding:12px 0 0}
+  .zones{display:flex;flex-wrap:nowrap;gap:8px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}
+  .zones::-webkit-scrollbar{display:none}
+  .zones.open{flex-wrap:wrap;overflow:visible}
+  .zchip{border:0;background:var(--soft);border-radius:999px;padding:8px 12px;font-size:13px;font-weight:500;color:var(--ink2);cursor:pointer;flex:0 0 auto;white-space:nowrap}
   .zchip.on{background:var(--ink);color:#fff}
+  .zchip .zn{opacity:.55;font-weight:400;margin-left:2px}
   main{padding:16px 0 64px}
   .group{position:relative;padding-left:20px;margin-top:24px}
   .group::before{content:"";position:absolute;left:4px;top:6px;bottom:0;border-left:2px dashed var(--hair)}
@@ -84,6 +86,7 @@
     .layout{display:grid;grid-template-columns:1fr 280px;gap:48px;align-items:start}
     .side-col{position:sticky;top:64px}
     .side-col .note{margin-top:24px}
+    .zones{flex-wrap:wrap;overflow:visible}
   }
 </style>
 </head>
@@ -95,14 +98,12 @@
 </div></header>
 
 <div class="zonepick"><div class="wrap">
-  <h2>Scegli la tua zona</h2>
   <div class="zones" id="zonechips"></div>
 </div></div>
 
 <div class="controls"><div class="wrap">
   <div class="seg" id="view"><button data-view="7" class="on">Prossimi 7 giorni</button><button data-view="all">Tutti i futuri</button></div>
   <div class="seg" id="scala"><button data-scala="principale" class="on">Principali</button><button data-scala="">Tutti</button><button data-scala="piccolo">Piccoli</button></div>
-  <select id="zona"><option value="">Tutte le zone</option></select>
   <button class="chip on" data-tipo="">Tutto</button>
   <button class="chip" data-tipo="culturale">★★★ Cultura</button>
   <button class="chip" data-tipo="concerto_musica">★★ Musica</button>
@@ -195,21 +196,35 @@ function render(){
   box.innerHTML=html;
 }
 
-function buildZone(){
+// picker zona compatto: una riga scorrevole ordinata per n. eventi, "+N altre" espande, memoria in localStorage
+const ZTOP=8;
+function zoneCounts(){
   const all=(DATA.eventiFuturi||[]).map(norm).filter(e=>e.data>=TODAY).concat((DATA.eventiRicorrenti||[]).map(norm));
-  const zonas=[...new Set(all.map(e=>e.zona).filter(Boolean))].sort();
-  const sel=document.getElementById("zona");
-  const lbl=z=>z.replace(/\bcitta\b/,"città"); // solo etichetta: il valore dati resta intatto per i filtri
-  zonas.forEach(z=>{const o=document.createElement("option");o.value=z;o.textContent=lbl(z);sel.appendChild(o);});
-  const box=document.getElementById("zonechips");
-  ["",...zonas].forEach(z=>{const b=document.createElement("button");b.className="zchip"+(z===""?" on":"");b.dataset.zona=z;
-    b.textContent=z?lbl(z):"Tutte le zone";b.onclick=()=>{zona=z;sel.value=z;syncZchips();render();};box.appendChild(b);});
+  const cnt={};all.forEach(e=>{if(e.zona)cnt[e.zona]=(cnt[e.zona]||0)+1;});
+  return{cnt,tot:all.length,zonas:Object.keys(cnt).sort((a,b)=>(cnt[b]-cnt[a])||a.localeCompare(b))};
 }
-function syncZchips(){document.querySelectorAll(".zchip").forEach(x=>x.classList.toggle("on",(x.dataset.zona||"")===zona));}
+function zlbl(z){return z.replace(/\bcitta\b/,"città");} // solo etichetta: il valore dati resta intatto per i filtri
+function zchip(z,n){const b=document.createElement("button");b.className="zchip"+(((z||"")===zona)?" on":"");b.dataset.zona=z;
+  b.innerHTML=`${z?esc(zlbl(z)):"Tutte le zone"}<span class="zn">${n}</span>`;
+  b.onclick=()=>{zona=z;try{localStorage.setItem("eb_zona",z);}catch(_){}syncZchips();render();};return b;}
+function buildZone(open){
+  const{cnt,tot,zonas}=zoneCounts();
+  const box=document.getElementById("zonechips");box.innerHTML="";
+  box.classList.toggle("open",!!open);
+  let vis=zonas;
+  if(!open&&zonas.length>ZTOP){vis=zonas.slice(0,ZTOP);
+    if(zona&&!vis.includes(zona)&&zonas.includes(zona))vis=vis.concat(zona);}
+  box.appendChild(zchip("",tot));
+  vis.forEach(z=>box.appendChild(zchip(z,cnt[z])));
+  if(!open&&zonas.length>vis.length){const m=document.createElement("button");m.className="zchip";
+    m.textContent=`+${zonas.length-vis.length} altre`;m.onclick=()=>buildZone(true);box.appendChild(m);}
+  const on=box.querySelector(".zchip.on");
+  if(on&&on.dataset.zona)on.scrollIntoView({inline:"center",block:"nearest"});
+}
+function syncZchips(){document.querySelectorAll(".zchip").forEach(x=>x.classList.toggle("on",(x.dataset.zona||"")===zona&&x.dataset.zona!==undefined));}
 function bind(){
   document.querySelectorAll("#view button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#view button").forEach(x=>x.classList.remove("on"));b.classList.add("on");view=b.dataset.view;render();});
   document.querySelectorAll("#scala button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#scala button").forEach(x=>x.classList.remove("on"));b.classList.add("on");scala=b.dataset.scala;render();});
-  document.getElementById("zona").onchange=e=>{zona=e.target.value;syncZchips();render();};
   document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.remove("on"));b.classList.add("on");tipo=b.dataset.tipo;render();});
 }
 fetch("./events.json").then(r=>r.json()).then(d=>{
@@ -222,6 +237,7 @@ fetch("./events.json").then(r=>r.json()).then(d=>{
   document.getElementById("note").innerHTML=`<b>Niente pubblicità. Niente login. Niente Instagram. Niente.</b> Solo eventi che vale la pena fare una sera d'estate in Romagna: dal festival al concerto gratis in piazza. ${futOggi} eventi verificati, ${nZoneVere} zone. Tutto qui.`;
   const gen=d.generatoIl||""; if(gen){const age=Math.round((new Date(TODAY)-new Date(gen))/86400000);
     if(age>7)document.getElementById("stale").innerHTML=`<div class="stale">⚠️ Dati raccolti ${age} giorni fa (${esc(gen)}): gli eventi più recenti potrebbero mancare. Serve un refresh.</div>`;}
+  try{const z=localStorage.getItem("eb_zona");if(z&&zoneCounts().cnt[z])zona=z;}catch(_){}
   buildZone(); bind(); render();
 }).catch(()=>{document.getElementById("list").innerHTML=`<div class="empty">Non riesco a caricare <code>events.json</code>.<br>Apri via GitHub Pages o un server locale.</div>`;});
 </script>

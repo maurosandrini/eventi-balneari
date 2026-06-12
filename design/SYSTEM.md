@@ -29,9 +29,15 @@ come pillole tinte, `sea #0e7c86` SOLO per i link.
 - **Gruppi giorno** (`.group`): timeline alla Luma; puntino bianco con bordo
   `dot_border` + binario verticale tratteggiato hairline a sinistra;
   intestazione giorno 14px/600 ink, minuscola (niente uppercase).
-- **Controlli sticky** (`.controls`): fondo pagina + hairline sotto; seg, select
-  e chip tutti uguali: pillola `soft` (ink 4%), testo 13px/500 secondario,
-  attivo = fondo `ink` testo bianco. Nessun bordo.
+- **Controlli sticky** (`.controls`): fondo pagina + hairline sotto; seg e chip
+  tutti uguali: pillola `soft` (ink 4%), testo 13px/500 secondario, attivo =
+  fondo `ink` testo bianco. Nessun bordo. (Il select zona è stato sostituito
+  dal picker `.zonepick`.)
+- **Picker zona** (`.zonepick`/`.zones`): UNA riga scorrevole sotto l'header,
+  chip `zchip` con conteggio eventi in `.zn` (opacità ridotta), zone ordinate
+  per numero di eventi; prime 8 + chip "+N altre" che espande a griglia
+  (`.zones.open`); su desktop sempre a griglia. L'ultima zona scelta si salva
+  in localStorage (`eb_zona`) e al ritorno è preselezionata e centrata.
 - **Header**: leggero, sul fondo pagina: titolo 28px/600 (24px sotto i 560px),
   sottotitolo 14px secondario, legenda 13px terziario.
 
